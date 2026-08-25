@@ -88,5 +88,5 @@ SCC1 - Cross Client transport import
 
 ## Table of contents 
 
-- Basic Settings 
+- [Basic Settings](https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main/01_BASIC_SETTINGS)
 - 
