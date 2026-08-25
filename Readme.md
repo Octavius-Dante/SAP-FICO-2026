@@ -77,6 +77,8 @@ configuration is the first major phase when setting up SAP Financial Accounting 
  - Regression Testing (RT) 
  - Retrofit Testing (RTT)
 
+</br>
+
 ## Table of contents 
 
 - 
