@@ -16,9 +16,11 @@
 - Asset Accounting (FI-AA) sub module of FI
 - Funds management (Focuses specifically on budgetary accounting) (PSM-FM)
 
+</br>
 
 Funds management : It belongs to SAP PSM (Public Sector Management), which works alongside FI and CO in the broader SAP financial ecosystem
 
+</br>
 
 ## Section Definitions 
 
@@ -31,6 +33,22 @@ configuration is the first major phase when setting up SAP Financial Accounting 
 - General Ledger (G/L) Setup: Establish the chart of accounts, account groups, and document number ranges.
 
 - Submodule Configuration: Configure specific rules for Accounts Payable (AP), Accounts Receivable (AR), and Asset Accounting (AA).
+
+</br>
+
+## Core Sub-Modules
+
+- General Ledger Accounting (FI-GL): The central repository that records all financial transactions and generates statutory financial statements like the Balance Sheet and Profit & Loss statement.
+
+- Accounts Payable (FI-AP): Manages all vendor transactions, including invoice processing, credit memos, employee expense vendor records, and automatic payment programs.
+
+- Accounts Receivable (FI-AR): Tracks all customer data, incoming payments, dunning (collection) procedures, and credit management limits.
+
+- Asset Accounting (FI-AA): Controls the lifecycle of fixed assets, including acquisitions, retirements, transfers, and automated depreciation runs.
+
+- Bank Accounting (FI-BL): Handles cash management, house bank configurations, bank statements, and electronic payment processing.
+
+</br>
 
 ## Table of contents 
 
