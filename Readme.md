@@ -19,6 +19,19 @@
 
 Funds management : It belongs to SAP PSM (Public Sector Management), which works alongside FI and CO in the broader SAP financial ecosystem
 
+
+## Section Definitions 
+
+configuration is the first major phase when setting up SAP Financial Accounting (FI) before you can create master data or post daily transactions.First Steps in SAP FI ConfigurationConfiguration begins in the SAP Customizing Implementation Guide (SPRO). It builds the structural and rule-based foundation of the system.
+
+- Enterprise Structure: Define organizational units like companies, company codes, and business areas, and link them together.
+
+- Global Settings: Set up core rules such as fiscal year variants, posting periods, currencies, and field status variants.
+
+- General Ledger (G/L) Setup: Establish the chart of accounts, account groups, and document number ranges.
+
+- Submodule Configuration: Configure specific rules for Accounts Payable (AP), Accounts Receivable (AR), and Asset Accounting (AA).
+
 ## Table of contents 
 
 - 
