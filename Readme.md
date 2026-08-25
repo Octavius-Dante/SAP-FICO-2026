@@ -55,9 +55,10 @@ configuration is the first major phase when setting up SAP Financial Accounting 
 - Business Blue print can be broken down into multiple documents when Standard SAP process is fit with business process of the company then PDT, COE, CSD is prepared when business process cases are UNfit for SAP standard process this GAP is addressed by customization 
  
   **Standard Process :**
-        > PDT (Process definition document) developed by business team for business understanding or by consultants
-        > COE (Configuration Object element) if SAP standard process is applicable at global level or regional level
-        > CSD (Configuration Specification Document) if SAP standard process is applicable at local level
+
+    - PDT (Process definition document) developed by business team for business understanding or by consultants
+    - COE (Configuration Object element) if SAP standard process is applicable at global level or regional level
+    - CSD (Configuration Specification Document) if SAP standard process is applicable at local level
  
   **Customized Process :**
         > FS (Functional Specification) prepared by Functional consultant to address a business process gap it is a Custom development blue print
