@@ -11,10 +11,12 @@
 - Solution and guides included from blogs will be labelled as (*BLOG)
 - Solution and guides from UDemy training videos will be labelled as (*UDEMY)
 - SAP Press Book based solutions will be labelled ad (*SAPPRESS)
+- Things written by me using my understanding (*ME)
+- THings referred from google search and AI suggested articles (*AI)
 
 </br>
 
-## Categories of FICO
+## Categories of FICO (*ME)
 
 - Financial Accounting (FI - Finance)
 - Management Accounting (CO - Controlling)
@@ -27,7 +29,7 @@ Funds management : It belongs to SAP PSM (Public Sector Management), which works
 
 </br>
 
-## Section Definitions 
+## Section Definitions (*AI)
 
 configuration is the first major phase when setting up SAP Financial Accounting (FI) before you can create master data or post daily transactions.First Steps in SAP FI ConfigurationConfiguration begins in the SAP Customizing Implementation Guide (SPRO). It builds the structural and rule-based foundation of the system.
 
@@ -41,7 +43,7 @@ configuration is the first major phase when setting up SAP Financial Accounting 
 
 </br>
 
-## Core Sub-Modules
+## Core Sub-Modules (*AI)
 
 - General Ledger Accounting (FI-GL): The central repository that records all financial transactions and generates statutory financial statements like the Balance Sheet and Profit & Loss statement.
 
@@ -55,7 +57,7 @@ configuration is the first major phase when setting up SAP Financial Accounting 
 
 </br>
 
-## SAP Implementation Document types and purposes
+## SAP Implementation Document types and purposes (*UDEMY)
 
 - Business Blue print can be broken down into multiple documents when Standard SAP process is fit with business process of the company then PDT, COE, CSD is prepared when business process cases are UNfit for SAP standard process this GAP is addressed by customization 
  
@@ -72,7 +74,7 @@ configuration is the first major phase when setting up SAP Financial Accounting 
 
 </br>
 
-## SAP Post-Implementation types of testing
+## SAP Post-Implementation types of testing (*UDEMY)
 
  - Unit Testing (UT) - UTP (Unit Testing plan )
  - Integration Testing (ITC) 
