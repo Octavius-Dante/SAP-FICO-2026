@@ -64,7 +64,7 @@ configuration is the first major phase when setting up SAP Financial Accounting 
   **Customized Process :**
 
     - FS (Functional Specification) prepared by Functional consultant to address a business process gap it is a Custom development blue print
-    - TS (Technical Specification) prepared by Technical consultant to give breifing about how this business gap was addressed with what technical objects and how it is functioning. 
+    - TS (Technical Specification) prepared by Technical consultant to give briefing about how this business gap was addressed with what technical objects and how it is functioning. 
 
 </br>
 
