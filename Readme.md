@@ -14,7 +14,10 @@
 - Financial Accounting (FI - Finance)
 - Management Accounting (CO - Controlling)
 - Asset Accounting (FI-AA) sub module of FI
-- 
+- Funds management (Focuses specifically on budgetary accounting) (PSM-FM)
+
+
+Funds management : It belongs to SAP PSM (Public Sector Management), which works alongside FI and CO in the broader SAP financial ecosystem
 
 ## Table of contents 
 
