@@ -58,8 +58,8 @@ configuration is the first major phase when setting up SAP Financial Accounting 
   **Standard Process :**
 
     - PDD (Process definition document) developed by business team for business understanding or by consultants
-    - COE (Configuration Object element) if SAP standard process is applicable at global level or regional level
-    - CSD (Configuration Specification Document) if SAP standard process is applicable at local level
+    - COE (Configuration Object element) if SAP standard process is applicable at global level 
+    - CSD (Configuration Specification Document) if SAP standard process is applicable at regional or local level
  
   **Customized Process :**
 
