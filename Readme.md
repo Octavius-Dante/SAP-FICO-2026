@@ -11,12 +11,10 @@
 - Solution and guides included from blogs will be labelled as (*BLOG)
 - Solution and guides from UDemy training videos will be labelled as (*UDEMY)
 - SAP Press Book based solutions will be labelled ad (*SAPPRESS)
-- Things written by me using my understanding (*ME)
-- THings referred from google search and AI suggested articles (*AI)
 
 </br>
 
-## Categories of FICO (*ME)
+## Categories of FICO 
 
 - Financial Accounting (FI - Finance)
 - Management Accounting (CO - Controlling)
@@ -29,7 +27,7 @@ Funds management : It belongs to SAP PSM (Public Sector Management), which works
 
 </br>
 
-## Section Definitions (*AI)
+## Section Definitions
 
 configuration is the first major phase when setting up SAP Financial Accounting (FI) before you can create master data or post daily transactions.First Steps in SAP FI ConfigurationConfiguration begins in the SAP Customizing Implementation Guide (SPRO). It builds the structural and rule-based foundation of the system.
 
@@ -43,7 +41,7 @@ configuration is the first major phase when setting up SAP Financial Accounting 
 
 </br>
 
-## Core Sub-Modules (*AI)
+## Core Sub-Modules 
 
 - General Ledger Accounting (FI-GL): The central repository that records all financial transactions and generates statutory financial statements like the Balance Sheet and Profit & Loss statement.
 
