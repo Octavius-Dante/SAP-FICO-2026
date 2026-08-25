@@ -9,6 +9,13 @@
 - Major crux of this blog, some of the transaction and activities which are not part of any training material or internet blogs or any SAP press books are explained by experienced subject matter expert from industry - Manohar
 
 
+## Categories of FICO
+
+- Financial Accounting (FI - Finance)
+- Management Accounting (CO - Controlling)
+- Asset Accounting (FI-AA) sub module of FI
+- 
+
 ## Table of contents 
 
 - 
