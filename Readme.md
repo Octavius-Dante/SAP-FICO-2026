@@ -68,6 +68,15 @@ configuration is the first major phase when setting up SAP Financial Accounting 
 
 </br>
 
+## SAP Post-Implementation types of testing
+
+ - Unit Testing (UT) - UTP (Unit Testing plan )
+ - Integration Testing (ITC) 
+ - Development Testing (DT)
+ - User Acceptance Testing (UAT) 
+ - Regression Testing (RT) 
+ - Retrofit Testing (RTT)
+
 ## Table of contents 
 
 - 
