@@ -10,6 +10,7 @@
 
 </br></br>
 
+Transaction : OX02 - Creating Company Code 
 
 
 </br>
