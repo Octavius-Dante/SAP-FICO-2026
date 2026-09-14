@@ -24,4 +24,12 @@ company code is tied to a specific country, currency, and local commercial/tax l
 
 </br>
 
+### What is Business Area in SAP ?
+
+Organizational Units also known as Business Area used (for internal purposes) Business areas represent separate areas of operation within an organization and can be used across company codes. They are balancing entities that can create their own set of financial statements for internal purposes. It is therefore possible to save and evaluate transaction figures for each business area. The use of business areas is optional.
+
+
+
+</br>
+
 <p align="center"> <a href="https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main"> FICO-2026 Main page </a> </p>
