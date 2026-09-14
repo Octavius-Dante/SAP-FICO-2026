@@ -8,11 +8,12 @@
 - Posting Periods Variant (Open and Close Posting Periods)
 - Currencies
 
-</br></br>
+</br>
 
 - Transaction : OX02 - Creating Company Code 
 - Transaction : OBY6 - Defining Accounting Org + Processing Parameter details
 
+</br>
 
 What is Company code in SAP ?
 
