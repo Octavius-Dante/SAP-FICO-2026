@@ -10,8 +10,8 @@
 
 </br></br>
 
-Transaction : OX02 - Creating Company Code 
-Transaction : OBY6 - Defining Accounting Org + Processing Parameter details
+- Transaction : OX02 - Creating Company Code 
+- Transaction : OBY6 - Defining Accounting Org + Processing Parameter details
 
 
 What is Company code in SAP ?
