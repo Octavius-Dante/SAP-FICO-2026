@@ -35,10 +35,14 @@ Business area is part of finance but it is not required to be assigned to a comp
 SPRO > Enterprise Structure > Definition > Financial Accounting > Define Business Area
 SPRO > Enterprise Structure > Definition > Financial Accounting > Consolidated Business Area 
 
-(the SPRO path may vary according to EHP SP levels)
-
 - Transaction : OX03 - Create Business area 
 - Transaction : OCC1 - Consolidated Business areas
+
+After Defining Business Area it needs to be activated in SPRO
+
+SPRO > Financial Accounting > Financial Accounting Global Settings > Business Area > Enable Business Area Balance Sheet
+
+- Transaction : OB65 - Business Area Financial statements
 
 </br>
 
