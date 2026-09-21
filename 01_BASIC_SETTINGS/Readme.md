@@ -33,8 +33,12 @@ Organizational Units also known as Business Area used (for internal purposes) Bu
 Business area is part of finance but it is not required to be assigned to a company code 
 
 SPRO > Enterprise Structure > Definition > Financial Accounting > Define Business Area
+SPRO > Enterprise Structure > Definition > Financial Accounting > Consolidated Business Area 
+
+(the SPRO path may vary according to EHP SP levels)
 
 - Transaction : OX03 - Create Business area 
+- Transaction : OCC1 - Consolidated Business areas
 
 </br>
 
