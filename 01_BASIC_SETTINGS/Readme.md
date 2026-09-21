@@ -30,11 +30,11 @@ SPRO > Enterprise Structure > Definition > Financial Accounting > Define Company
 
 Organizational Units also known as Business Area used (for internal purposes) Business areas represent separate areas of operation within an organization and can be used across company codes. They are balancing entities that can create their own set of financial statements for internal purposes. It is therefore possible to save and evaluate transaction figures for each business area. The use of business areas is optional.
 
-Business area is part of finance 
+Business area is part of finance but it is not required to be assigned to a company code 
 
 SPRO > Enterprise Structure > Definition > Financial Accounting > Define Business Area
 
-- Transaction : OX03 - 
+- Transaction : OX03 - Create Business area 
 
 </br>
 
