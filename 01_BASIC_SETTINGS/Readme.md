@@ -18,6 +18,8 @@ Company Code (for external purposes) A company code represents an independent ba
 
 company code is tied to a specific country, currency, and local commercial/tax law.
 
+SPRO > Enterprise Structure > Definition > Financial Accounting > Define Company
+
 - Transaction : OX02 - Creating Company Code 
 - Transaction : OBY6 - Defining Accounting Org + Processing Parameter details
 - Transaction : EC01 - Used to copy an existing company code in SAP to create a new company code 
@@ -28,6 +30,11 @@ company code is tied to a specific country, currency, and local commercial/tax l
 
 Organizational Units also known as Business Area used (for internal purposes) Business areas represent separate areas of operation within an organization and can be used across company codes. They are balancing entities that can create their own set of financial statements for internal purposes. It is therefore possible to save and evaluate transaction figures for each business area. The use of business areas is optional.
 
+Business area is part of finance 
+
+SPRO > Enterprise Structure > Definition > Financial Accounting > Define Business Area
+
+- Transaction : OX03 - 
 
 </br>
 
