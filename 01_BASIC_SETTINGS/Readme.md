@@ -44,6 +44,19 @@ SPRO > Financial Accounting > Financial Accounting Global Settings > Business Ar
 
 - Transaction : OB65 - Business Area Financial statements
 
+When we Copy the business Area Global parameters are also copied
+
+SPRO > Financial Accounting Global Settings (New)> Global Parameters for Company Code> Enter Global Parameters
+
+- Transaction : OBY6 - Company Code global data overview
+
 </br>
+
+### What is Functional Area in SAP ?
+
+SAP is an account assignment characteristic that classifies operating expenses by their specific business function, such as production, Administration, Sales and Distribution, Marketing, and Research and Development (R&D).
+
+
+</br></br>
 
 <p align="center"> <a href="https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main"> FICO-2026 Main page </a> </p>
