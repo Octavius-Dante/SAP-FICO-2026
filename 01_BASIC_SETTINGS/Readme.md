@@ -88,7 +88,9 @@ There is another category called **Special posting periods** which are 4 and it 
 </br>
 
 1 special posting period represents 3 normal posting period that means 
-(it represents a Quarterly period) 1 = [1,2,3], 2 = [4,5,6], 3 = [7,8,9], 4 = [10,11,12]
+(it represents a Quarterly period)
+
+1 = [1,2,3], 2 = [4,5,6], 3 = [7,8,9], 4 = [10,11,12]
 
 </br>
 
