@@ -96,7 +96,7 @@ Calendar fiscal year has 12 posting periods
 Non calendar fiscal year has 12 + 4 special posting period = total of 16 posting periods
 
 Physical year which gets closed earlier than usual for certain businesses in those cases SAP has introduces something called **Shortened Fiscal year** 
-which falls under **Year Depen dent** 
+which falls under **Year Dependent** 
 
 - sap provided template for Calendar fiscal year - 'K4'
 - sap provided template for NON-Calendar fiscal year - 
