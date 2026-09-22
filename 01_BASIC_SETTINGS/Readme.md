@@ -75,7 +75,9 @@ The variant principle in SAP Financial Accounting (FI) is a three-step method us
 
 Common Applications in SAP FI
 
-- Fiscal Year Variants (FYV): Defines how a company's financial year is structured, including the number of normal posting periods (e.g., 12) and special adjustment periods (up to 4). It can follow a calendar year (Jan–Dec) or a non-calendar year (e.g., April–March).
+- Fiscal Year Variants (FYV): Defines how a company's financial year is structured, including the number of normal posting periods (e.g., 12) and special adjustment periods (up to 4). It can follow a 
+    - calendar year (Jan–Dec) 
+    - a non-calendar year (e.g., April–March).
 
 - Posting Period Variants (PPV): Controls which accounting posting periods are open or closed for transaction data entry, categorized by account types (Assets, Customers, Vendors, etc.).
 
