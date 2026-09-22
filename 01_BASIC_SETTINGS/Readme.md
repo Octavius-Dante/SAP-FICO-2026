@@ -63,6 +63,25 @@ SPRO > Financial Accounting Global Settings (New)> Global Parameters for Company
 
 SAP is an account assignment characteristic that classifies operating expenses by their specific business function, such as production, Administration, Sales and Distribution, Marketing, and Research and Development (R&D).
 
+Functional Area is tightly involved with controlling.
+
+</br>
+
+### What is Variant Principle ?
+
+The variant principle in SAP Financial Accounting (FI) is a three-step method used to assign common configuration properties to one or more company codes or business objects without repeating the setup for each one
+
+</br>
+
+Common Applications in SAP FI
+
+- Fiscal Year Variants (FYV): Defines how a company's financial year is structured, including the number of normal posting periods (e.g., 12) and special adjustment periods (up to 4). It can follow a calendar year (Jan–Dec) or a non-calendar year (e.g., April–March).
+
+- Posting Period Variants (PPV): Controls which accounting posting periods are open or closed for transaction data entry, categorized by account types (Assets, Customers, Vendors, etc.).
+
+- Field Status Variants (FSV): Controls the display and behavior (optional, mandatory, or suppressed) of fields during document entry.
+
+</br>
 
 ## Assignment  
 
