@@ -85,9 +85,16 @@ There are 2 types of fiscal year variant
 There is another category called **Special posting periods** which are 4 and it happens during year end closing it allows the user to post from past dates 
 (example : user is in MARCH-2024 can post entries dated back to sep-2023, oct-2023) 
 
-1 special posting period represents 3 normal posting period that means (it represents a Quarterly period)
+</br>
+
+1 special posting period represents 3 normal posting period that means (it represents a Quarterly period) 1 = [1,2,3], 2 = [4,5,6], 3 = [7,8,9], 4 = [10,11,12]
+
+</br>
 
 - Posting Period Variants (PPV): Controls which accounting posting periods are open or closed for transaction data entry, categorized by account types (Assets, Customers, Vendors, etc.).
+
+
+</br>
 
 - Field Status Variants (FSV): Controls the display and behavior (optional, mandatory, or suppressed) of fields during document entry.
 
