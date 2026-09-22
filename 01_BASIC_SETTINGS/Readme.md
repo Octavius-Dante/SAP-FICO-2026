@@ -82,7 +82,7 @@ There are 2 types of fiscal year variant
     - a calendar year (Jan–Dec) 
     - a non-calendar year (e.g., April–March).
 
-There is another category called Special posting periods which are 4 and it happens during year end closing it allows the user to post from past dates 
+There is another category called **Special posting periods** which are 4 and it happens during year end closing it allows the user to post from past dates 
 (example : user is in MARCH-2024 can post entries dated back to sep-2023, oct-2023) 
 
 1 special posting period represents 3 normal posting period that means (it represents a Quarterly period)
