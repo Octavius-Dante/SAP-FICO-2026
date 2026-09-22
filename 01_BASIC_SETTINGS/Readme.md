@@ -23,7 +23,6 @@ company code is tied to a specific country, currency, and local commercial/tax l
 SPRO > Enterprise Structure > Definition > Financial Accounting > Define Company
 
 - Transaction : OX02 - Creating Company Code 
-- Transaction : OBY6 - Defining Accounting Org + Processing Parameter details
 - Transaction : EC01 - Used to copy an existing company code in SAP to create a new company code 
 
 </br>
