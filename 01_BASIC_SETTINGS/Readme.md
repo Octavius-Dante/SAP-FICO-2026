@@ -99,6 +99,7 @@ Physical year which gets closed earlier than usual for certain businesses in tho
 which falls under **Year Dependent** 
 
 - sap provided template for Calendar fiscal year - 'K4'
+- sap provided template for Shortened fiscal year - 'AA'
 - sap provided template for NON-Calendar fiscal year - 
 
 </br>
