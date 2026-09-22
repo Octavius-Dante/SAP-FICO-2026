@@ -32,6 +32,8 @@ SPRO > Enterprise Structure > Definition > Financial Accounting > Define Company
 
 Organizational Units also known as Business Area used (for internal purposes) Business areas represent separate areas of operation within an organization and can be used across company codes. They are balancing entities that can create their own set of financial statements for internal purposes. It is therefore possible to save and evaluate transaction figures for each business area. The use of business areas is optional.
 
+</br>
+
 Business area is part of finance but it is not required to be assigned to a company code 
 
 SPRO > Enterprise Structure > Definition > Financial Accounting > Define Business Area
@@ -40,17 +42,21 @@ SPRO > Enterprise Structure > Definition > Financial Accounting > Consolidated B
 - Transaction : OX03 - Create Business area 
 - Transaction : OCC1 - Consolidated Business areas
 
+</br>
+
 After Defining Business Area it needs to be activated in SPRO
 
 SPRO > Financial Accounting > Financial Accounting Global Settings > Business Area > Enable Business Area Balance Sheet
 
 - Transaction : OB65 - Business Area Financial statements
 
+</br>
+
 When we Copy the business Area Global parameters are also copied
 
 SPRO > Financial Accounting Global Settings (New)> Global Parameters for Company Code> Enter Global Parameters
 
-- Transaction : OBY6 - Company Code global data overview
+- Transaction : OBY6 - Company Code global data overview to view the components of the company code in detail
 
 </br>
 
