@@ -92,7 +92,7 @@ There is another category called **Special posting periods** which are 4 and it 
 
 1 = [1,2,3], 2 = [4,5,6], 3 = [7,8,9], 4 = [10,11,12]
 
-Calendar fical year has 12 posting periods 
+Calendar fiscal year has 12 posting periods 
 Non calendar fiscal year has 12 + 4 special posting period = total of 16 posting periods
 
 </br>
