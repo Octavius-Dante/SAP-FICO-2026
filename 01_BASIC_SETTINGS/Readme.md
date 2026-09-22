@@ -82,6 +82,8 @@ There are 2 types of fiscal year variant
     - a calendar year (Jan–Dec) 
     - a non-calendar year (e.g., April–March).
 
+There is another category called Special posting periods which are 4 and it happens during year end closing 
+
 - Posting Period Variants (PPV): Controls which accounting posting periods are open or closed for transaction data entry, categorized by account types (Assets, Customers, Vendors, etc.).
 
 - Field Status Variants (FSV): Controls the display and behavior (optional, mandatory, or suppressed) of fields during document entry.
