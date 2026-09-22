@@ -10,6 +10,8 @@
 
 </br>
 
+## Definitions   
+
 ### What is Company code in SAP ?
 
 Company Code (for external purposes) A company code represents an independent balancing/legal accounting entity. An example would be a company with independent accounts within a corporate group. Financial statements required by law can be created at company code level. Therefore, a company code is the minimum structure necessary in SAP ERP Financial. In an international business, operations are often scattered across numerous countries. Since most government and tax authorities require the registration of a legal entity for every company, a separate company code is usually created per country.
@@ -56,6 +58,14 @@ SPRO > Financial Accounting Global Settings (New)> Global Parameters for Company
 
 SAP is an account assignment characteristic that classifies operating expenses by their specific business function, such as production, Administration, Sales and Distribution, Marketing, and Research and Development (R&D).
 
+
+## Assignment  
+
+after completing all the definition of config now all the defined objects required to be assigned for business usage
+
+SPRO path : 
+
+SPRO > Enterprise Structure > Assignments > 
 
 </br></br>
 
