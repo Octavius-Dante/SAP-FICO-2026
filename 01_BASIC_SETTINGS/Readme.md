@@ -63,9 +63,15 @@ SAP is an account assignment characteristic that classifies operating expenses b
 
 after completing all the definition of config now all the defined objects required to be assigned for business usage
 
-SPRO path : 
+following Assignments can be defined
 
 SPRO > Enterprise Structure > Assignments > 
+
+Assign company code to company
+Assign company code to credit control area
+Assign business area to consolidation business area
+Assign company code to financial management area
+Assign Profit Center to Company Code
 
 </br></br>
 
