@@ -73,11 +73,11 @@ following Assignments can be defined
 
 SPRO > Enterprise Structure > Assignments > 
 
-Assign company code to company
-Assign company code to credit control area
-Assign business area to consolidation business area
-Assign company code to financial management area
-Assign Profit Center to Company Code
+- Assign company code to company
+- Assign company code to credit control area
+- Assign business area to consolidation business area
+- Assign company code to financial management area
+- Assign Profit Center to Company Code
 
 </br></br>
 
