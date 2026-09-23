@@ -136,6 +136,9 @@ Core Currency Types in SAP FI SAP Financial Accounting typically handles transac
 - Exchange rate spread
 - Inversion
 
+
+</br></br>
+
 ## Assignment  
 
 after completing all the definition of config now all the defined objects required to be assigned for business usage
