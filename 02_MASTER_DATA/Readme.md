@@ -17,6 +17,22 @@
 </br>
 
 
+System should be prepared and setup properly first then GL accounts can be created 
+how to setup the system correctly it should be done here
+
+
+
+## What is General Ledger Accounts ?
+
+
+
+
+</br>
+
+
+
+</br>
+
 
 </br></br>
 
