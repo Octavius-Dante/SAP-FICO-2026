@@ -75,7 +75,9 @@ The variant principle in SAP Financial Accounting (FI) is a three-step method us
 
 Common Applications in SAP FI
 
-- Fiscal Year Variants (FYV): Defines how a company's financial year is structured, including the number of normal posting periods (e.g., 12) and special adjustment periods (up to 4). 
+####  Fiscal Year Variants (FYV): 
+
+Defines how a company's financial year is structured, including the number of normal posting periods (e.g., 12) and special adjustment periods (up to 4). 
 
 There are 2 types of fiscal year variant 
 
@@ -103,7 +105,9 @@ which falls under **Year Dependent**
 
 </br>
 
-- Posting Period Variants (PPV): Controls which accounting posting periods are open or closed for transaction data entry, categorized by account types (Assets, Customers, Vendors, etc.).
+#### Posting Period Variants (PPV): 
+
+Controls which accounting posting periods are open or closed for transaction data entry, categorized by account types (Assets, Customers, Vendors, etc.).
 
 This is a 3 step process 
 
@@ -115,7 +119,9 @@ To test this process GL postings should happen in the system for the defined pos
  
 </br>
 
-- Field Status Variants (FSV): Controls the display and behavior (optional, mandatory, or suppressed) of fields during document entry.
+#### Field Status Variants (FSV): 
+
+Controls the display and behavior (optional, mandatory, or suppressed) of fields during document entry.
 
 </br>
 
