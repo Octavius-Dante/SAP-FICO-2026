@@ -18,8 +18,11 @@
 
 
 System should be prepared and setup properly first then GL accounts can be created 
-how to setup the system correctly it should be done here
+how to setup the system correctly it should be done here in SPRO
 
+SPRO > SAP Reference IMG > Financial Accounting > General Ledger Accounting > Master Data > G/L Accounts > Preparations > Edit Chart of Accounts List
+
+Chart of accounts is the highest level of hierarchy for GL accounts 
 
 
 ## What is General Ledger Accounts ?
