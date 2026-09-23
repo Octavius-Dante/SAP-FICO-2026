@@ -130,7 +130,7 @@ Controls the display and behavior (optional, mandatory, or suppressed) of fields
 
 Currencies in SAP FI (Financial Accounting) define the monetary units used to record business transactions, manage general ledgers, and report financial results globally.
 
-Core Currency Types in SAP FISAP Financial Accounting typically handles transactions and reporting using three primary currency categories:
+Core Currency Types in SAP FI SAP Financial Accounting typically handles transactions and reporting using three primary currency categories:
 
 - Reference / Base Currency 
 - Exchange rate spread
