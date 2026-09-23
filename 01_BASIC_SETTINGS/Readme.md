@@ -100,13 +100,19 @@ which falls under **Year Dependent**
 
 - sap provided template for Calendar fiscal year - 'K4'
 - sap provided template for Shortened fiscal year - 'AA'
-- sap provided template for NON-Calendar fiscal year - 
 
 </br>
 
 - Posting Period Variants (PPV): Controls which accounting posting periods are open or closed for transaction data entry, categorized by account types (Assets, Customers, Vendors, etc.).
 
+This is a 3 step process 
 
+- Define variants for Open Posting Periods
+- Open and close Posting Periods 
+- Assign the variant to Company Code 
+
+To test this process GL postings should happen in the system for the defined posting periods.
+ 
 </br>
 
 - Field Status Variants (FSV): Controls the display and behavior (optional, mandatory, or suppressed) of fields during document entry.
