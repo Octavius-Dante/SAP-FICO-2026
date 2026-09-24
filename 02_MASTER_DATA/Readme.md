@@ -78,8 +78,23 @@ General Ledger (G/L) account in SAP is a master record used to track, record, an
 Two Main Segments: G/L master data is organized into two primary levels
 
 - **Chart of Accounts Segment:** Contains general definitions and account numbers used across the entire organization.
-- **Company Code Segment:** Contains company-specific rules like currency and retained earnings settings.
+</br>
 
+- **Company Code Segment:** Contains company-specific rules like currency and retained earnings settings.
+</br>
+
+- **Reconciliation account** carries forward the balance of the revenue accounts because customer accounts, postings are automatically done.
+
+reconciliation account can be 
+          - Customer account
+          - Vendor account 
+          - Asset reconciliation account 
+</br>
+
+- **Profit and loss account** the balance is carried forward to the retained earnings account.
+</br>
+
+- **Balance sheet accounts** the balance is carried forward to the same balance sheet account. 
 
 
 GL Account has external number range only, 
