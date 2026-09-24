@@ -35,16 +35,24 @@ Chart of accounts is the highest level of hierarchy for GL accounts
 
 **Operative Chart of accounts** is a main chart of accounts which is operational for business  Transaction : FS00
 
+Chart of accounts cannot be deleted when a GL posting exist it can only be blocked
+
 **Group Chart of Accounts** is an Optional chart of accounts also called as **Consolidated financial statements** to get the total value of a company across globe in multiple country you will use this Transaction : FSP0 
 
 **Country Chart of Accounts** is an Optional it is used for reporting purposes at country level 
 
 **INT** is the standard template SAP as provided for Chart of accounts 
 
+**Account group** Contains Assets, Liabilities, Expenses, Revenue (R.E.A.L) It is categorization of GL Accounts 
+
+Number Ranges in GL accounts can be overlapped, But Number ranges in vendor master and customer master cannot be overlapped 
+
 </br></br>
 
 
 ## What is General Ledger Accounts ?
+
+Length of GL Account number : max is 10 
 
 
 
