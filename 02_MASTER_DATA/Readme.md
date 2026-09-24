@@ -86,6 +86,8 @@ Two Main Segments: G/L master data is organized into two primary levels
 - **Reconciliation account** carries forward the balance of the revenue accounts because customer accounts, postings are automatically done.
 
 reconciliation account can be 
+
+
           - Customer account
           - Vendor account 
           - Asset reconciliation account 
