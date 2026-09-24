@@ -57,10 +57,14 @@ Number Ranges in GL accounts can be overlapped, But Number ranges in vendor mast
 
 **Field Status** Purpose of the field status is to change the status of the particular field maximum 4 types of status 
 
-- Hide 
+listed as per priority sequence 
+
 - Display 
+- Hide (Suppress)
 - Required 
 - Optional
+
+
 
 </br></br>
 
