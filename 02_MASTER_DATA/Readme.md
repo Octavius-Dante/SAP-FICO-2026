@@ -30,9 +30,18 @@ Chart of accounts is the highest level of hierarchy for GL accounts
 - Group Chart of Accounts and Country Chart of Accounts will receive the posting in-directly (Auto populated) through Operative Chart of Accounts  (or operating chart of accounts)
 
 
+</br>
+
+
 **Operative Chart of accounts** is a main chart of accounts which is operational for business
 
-**Group Chart of Accounts** is an Optional chart of accounts 
+**Group Chart of Accounts** is an Optional chart of accounts also called as **Consolidated financial statements** to get the total value of a company across globe in multiple country you will use this 
+
+**Country Chart of Accounts** is an Optional it is used for reporting purposes at country level 
+
+
+</br></br>
+
 
 ## What is General Ledger Accounts ?
 
