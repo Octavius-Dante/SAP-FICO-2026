@@ -39,6 +39,7 @@ Chart of accounts is the highest level of hierarchy for GL accounts
 
 **Country Chart of Accounts** is an Optional it is used for reporting purposes at country level 
 
+**INT** is the standard template SAP as provided for Chart of accounts 
 
 </br></br>
 
