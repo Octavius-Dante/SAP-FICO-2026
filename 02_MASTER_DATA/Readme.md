@@ -59,8 +59,8 @@ Number Ranges in GL accounts can be overlapped, But Number ranges in vendor mast
 
 listed as per priority sequence 
 
-- Display 
 - Hide (Suppress)
+- Display 
 - Required 
 - Optional
 
