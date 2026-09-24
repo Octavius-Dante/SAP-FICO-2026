@@ -33,9 +33,9 @@ Chart of accounts is the highest level of hierarchy for GL accounts
 </br>
 
 
-**Operative Chart of accounts** is a main chart of accounts which is operational for business
+**Operative Chart of accounts** is a main chart of accounts which is operational for business  Transaction : FS00
 
-**Group Chart of Accounts** is an Optional chart of accounts also called as **Consolidated financial statements** to get the total value of a company across globe in multiple country you will use this 
+**Group Chart of Accounts** is an Optional chart of accounts also called as **Consolidated financial statements** to get the total value of a company across globe in multiple country you will use this Transaction : FSP0 
 
 **Country Chart of Accounts** is an Optional it is used for reporting purposes at country level 
 
