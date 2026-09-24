@@ -130,7 +130,7 @@ you need customer master data to create General data for accounts receivable,
 </br></br>
 
 > [!NOTE]
-> Fi consultants will not create - Sales Area Segment in AR and Purchasing Area Segment in AP  
+> FI consultants wont create - Sales Area Segment in AR and Purchasing Area Segment in AP  
 
 </br>
 
