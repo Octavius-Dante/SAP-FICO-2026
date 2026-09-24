@@ -98,6 +98,7 @@ reconciliation account can be
 
 - **Balance sheet accounts** the balance is carried forward to the same balance sheet account. 
 
+</br></br>
 
 GL Account has external number range only, 
 
