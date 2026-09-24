@@ -113,6 +113,26 @@ Transaction : F.10
 </br>
 
 
+## Accounts Receivable (Master records) 
+
+- General data created at client level valid for all company codes 
+- Company segment related to particular company code
+- Sales Area segment is created by sales and distribution consultant  or sales team 
+
+</br>
+
+you need customer master data to create General data for accounts receivable, 
+
+- when general data and company code data both segments alone created it is called **Decentralized Master Data**
+- when all 3 segments are created then it is called **Centralized Master Data**
+
+> [!NOTE]
+> Fi consultants will not create - Sales Area segment in AR and Purchasing area Segment in AP  
+
+</br>
+
+
+
 
 </br>
 
@@ -120,3 +140,4 @@ Transaction : F.10
 </br></br>
 
 <p align="center"> <a href="https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main"> FICO-2026 Main page </a> </p>
+
