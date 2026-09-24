@@ -56,7 +56,6 @@ Number Ranges in GL accounts can be overlapped, But Number ranges in vendor mast
 </br>
 
 **Field Status** Purpose of the field status is to change the status of the particular field maximum 4 types of status 
-
 listed as per priority sequence 
 
 - Hide (Suppress)
@@ -64,6 +63,7 @@ listed as per priority sequence
 - Required 
 - Optional
 
+**Field Status Variant** it is similar as Field status but defining it like a variant, Sap Recommends to copy and existing FSV and create and change it for usage 
 
 
 </br></br>
