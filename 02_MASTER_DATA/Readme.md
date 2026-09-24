@@ -52,7 +52,7 @@ Chart of accounts cannot be deleted when a GL posting exist it can only be block
 Number Ranges in GL accounts can be overlapped, But Number ranges in vendor master and customer master cannot be overlapped 
 </br>
 
-**Retained Earnings Account** 
+**Retained Earnings Account** Carries forward the balance of Profit and Loss account and makes the balance as zero it is used in year end closing - **it is a Capital account and it is a Liability of the company**  
 </br>
 
 </br></br>
