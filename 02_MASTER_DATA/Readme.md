@@ -55,6 +55,13 @@ Number Ranges in GL accounts can be overlapped, But Number ranges in vendor mast
 **Retained Earnings Account** Carries forward the balance of Profit and Loss account and makes the balance as zero it is used in year end closing - **it is a Capital account and it is a Liability of the company**  
 </br>
 
+**Field Status** Purpose of the field status is to change the status of the particular field maximum 4 types of status 
+
+- Hide 
+- Display 
+- Required 
+- Optional
+
 </br></br>
 
 
