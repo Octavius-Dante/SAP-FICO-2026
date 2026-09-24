@@ -102,6 +102,9 @@ GL Account has external number range only,
 Length of GL Account number : max is 10 
 
 
+To view all the GL accounts under Chart of accounts 
+
+Transaction : F.10 
 
 
 </br>
