@@ -73,7 +73,7 @@ listed as per priority sequence
 
 General Ledger (G/L) account in SAP is a master record used to track, record, and summarize all financial transactions within a company. It serves as the central foundation for external financial reporting, including balance sheets and profit and loss statements.
 
- Backbone of Financials: Every business transaction in SAP—whether from finance, sales, or purchasing—ultimately creates a debit or credit entry in a G/L account.
+ Backbone of Financials: Every business transaction in SAP-whether from finance, sales, or purchasing-ultimately creates a debit or credit entry in a G/L account.
 
 Two Main Segments: G/L master data is organized into two primary levels
 
