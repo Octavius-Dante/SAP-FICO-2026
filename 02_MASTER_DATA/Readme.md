@@ -71,6 +71,19 @@ listed as per priority sequence
 
 ## What is General Ledger Accounts ?
 
+General Ledger (G/L) account in SAP is a master record used to track, record, and summarize all financial transactions within a company. It serves as the central foundation for external financial reporting, including balance sheets and profit and loss statements.
+
+ Backbone of Financials: Every business transaction in SAP—whether from finance, sales, or purchasing—ultimately creates a debit or credit entry in a G/L account.
+
+Two Main Segments: G/L master data is organized into two primary levels
+
+- **Chart of Accounts Segment:** Contains general definitions and account numbers used across the entire organization.
+- **Company Code Segment:** Contains company-specific rules like currency and retained earnings settings.
+
+
+
+GL Account has external number range only, 
+
 Length of GL Account number : max is 10 
 
 
