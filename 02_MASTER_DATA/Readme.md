@@ -32,7 +32,6 @@ Chart of accounts is the highest level of hierarchy for GL accounts
 
 </br>
 
-
 **Operative Chart of accounts** is a main chart of accounts which is operational for business  Transaction : FS00
 
 Chart of accounts cannot be deleted when a GL posting exist it can only be blocked
