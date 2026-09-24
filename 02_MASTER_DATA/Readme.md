@@ -126,8 +126,11 @@ you need customer master data to create General data for accounts receivable,
 - when general data and company code data both segments alone created it is called **Decentralized Master Data**
 - when all 3 segments are created then it is called **Centralized Master Data**
 
+
+</br></br>
+
 > [!NOTE]
-> Fi consultants will not create - Sales Area segment in AR and Purchasing area Segment in AP  
+> Fi consultants will not create - Sales Area Segment in AR and Purchasing Area Segment in AP  
 
 </br>
 
