@@ -16,6 +16,13 @@
 
 </br>
 
+Any document you find in SAP will have Header level and Item level thats how structuring was defined in SAP,
+Date and other information will be common for all the items
+
+- Header level is controlled by document type 
+- Item level is controlled by posting keys 
+- Document type is used to identify different type of business transaction 
+- Item contains only item specific information not common info like header level
 
 
 </br>
