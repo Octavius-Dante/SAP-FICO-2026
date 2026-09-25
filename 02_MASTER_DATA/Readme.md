@@ -7,7 +7,7 @@
 - Group Chart of Accounts (Consolidated Financial Statements)
 - Country Chart of Accounts  
 - Account Group / Field Status
-- Defined Retained Earnings
+- Define Retained Earnings
 - Field Status Variant / Group of GL Accounts
 - Creation of GL Accounts(1: Chart of Accounts segment and 2: Company code segment)
 - Accounts Receivable (Master records) - (3: General Data Company code segment and Sales Area Segment)
@@ -124,8 +124,7 @@ Transaction : F.10
 you need customer master data to create General data for accounts receivable, 
 
 - when general data and company code data both segments alone created it is called **Decentralized Master Data**
-- when all 3 segments are created then it is called **Centralized Master Data**
-
+- when all 3 segments are created then it is called [General + Company code + Sales area]**Centralized Master Data**
 
 </br></br>
 
@@ -134,8 +133,24 @@ you need customer master data to create General data for accounts receivable,
 
 </br>
 
+## Accounts Payable (Master records) 
+
+- General data created at client level valid for all company codes 
+- Company segment related to particular company code
+- Purchase Area segment is created by Material Management consultants or purchase team 
+
+</br>
+
+you need customer master data to create General data for accounts payable, 
+
+- when general data and company code data both segments alone created it is called **Decentralized Master Data**
+- when all 3 segments are created then it is called [General + Company code + Purchase area] **Centralized Master Data**
 
 
+## Bank Master Data
+
+Creation of bank account details with address for a company code with control data of bank account number and mapping it to GL account 
+all are performed.
 
 </br>
 
