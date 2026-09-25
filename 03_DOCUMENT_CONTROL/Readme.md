@@ -29,8 +29,6 @@ Date and other information will be common for all the items
 
 - Document Types are created at Client level valid for all the clients SAP has already delivered some set of standard document types very few cases where business disconnect with standard document type then companies create custom document type
 
-</br>
-
 - Document type also controls the account type , it is a customer document or vendor document, asset document o gal document ...etc
 
 
