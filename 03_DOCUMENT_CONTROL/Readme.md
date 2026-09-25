@@ -35,8 +35,8 @@ Date and other information will be common for all the items
 
 There are 2 different type of view when posting a document 
 
- - Entry view
- - General Ledger view 
+ - Entry view (How a document is posted)
+ - General Ledger view (How the document can be viewed accordingly as per general ledger)
 
 
 
