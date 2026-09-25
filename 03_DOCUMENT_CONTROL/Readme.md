@@ -31,16 +31,12 @@ Date and other information will be common for all the items
 
 - Document type also controls the account type , it is a customer document or vendor document, asset document o gal document ...etc
 
-
-
-
 </br>
 
-**Operative Chart of accounts** is a main chart of accounts which is operational for business  Transaction : FS00
-</br>
-Chart of accounts cannot be deleted when a GL posting exist it can only be blocked
-</br>
+There are 2 different type of view when posting a document 
 
+ - Entry view
+ - General Ledger view 
 
 
 
