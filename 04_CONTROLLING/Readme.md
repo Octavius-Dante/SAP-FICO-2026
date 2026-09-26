@@ -30,6 +30,8 @@ Yes, SAP CO-PA (Profitability Analysis) is directly related to the traditional P
 
 **Profit Center** is an internal accounting organizational unit used to track both revenues and costs, allowing management to evaluate the financial performance of specific business segments, product lines, or geographic regions.
 
+**SAP recommends #1** 1 Controlling area for one type of business if there is multiple controlling area in an organization it means that company has multiple nature of business 
+
 </br></br>
 
 
