@@ -55,6 +55,13 @@ as per above number range setting same number range will be used for different F
  example : 180000025 document is the last document of 2024
 in 2025 the first document created will be 1800000001
 
+- How many types of Account types are allowed or available in Document type number is 5 
+
+1. Asset
+2. Customer
+3. Vendor
+4. Material
+5. G/L Account 
 
 
 </br></br>
