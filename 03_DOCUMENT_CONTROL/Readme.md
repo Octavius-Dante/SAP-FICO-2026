@@ -81,12 +81,15 @@ Posting in SAP is the official process of recording a business or financial tran
 ## General Ledger posting 
 
 General ledger (G/L) posting in SAP is the core financial process of recording business transactions as debits and credits into the central accounting repository
-
-
+ 
 G/L posting can be performed in 2 ways in SAP
 
  - F-02  : "General posting" - is an old way of posting the documents 
  - FB50  : "Enter GL account document" is the most user friendly way of posting 
+
+- **G/L document is only used for internal posting purposes**  
+- **Customer and Vendor document are used for external purposes** 
+
 
 </br></br>
 
