@@ -44,7 +44,6 @@ A Fi document is identified by 3 objects
 - Document number [123456789]
 - Fiscal year [2026]
 
-
 how SAP functions for SAP number range explanation 
 
 2024 - NR [180000000 - 189999999] 
