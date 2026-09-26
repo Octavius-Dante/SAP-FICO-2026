@@ -38,6 +38,23 @@ There are 2 different type of view when posting a document
  - Entry view (How a document is posted)
  - General Ledger view (How the document can be viewed accordingly as per general ledger)
 
+A Fi document is identified by 3 objects 
+
+- Company code [AU01] 
+- Document number [123456789]
+- Fiscal year [2026]
+
+
+how SAP functions for SAP number range explanation 
+
+2024 - NR [180000000 - 189999999] 
+2025 - NR [180000000 - 189999999]  
+
+as per above number range setting same number range will be used for different Fiscal year when next year starts the number range also starts from begining  
+
+ example : 180000025 document is the last document of 2024
+in 2025 the first document created will be 1800000001
+
 
 
 </br></br>
