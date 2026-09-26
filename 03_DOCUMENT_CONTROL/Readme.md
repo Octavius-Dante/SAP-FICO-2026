@@ -63,6 +63,12 @@ in 2025 the first document created will be 1800000001
 5. G/L Account 
 
 
+Item level contains posting keys and posting key is a representation of a transaction it is a major component 
+
+posting key can be created in sap system by understanding the existing posting keys functionality and its ingredients 
+
+it is not advisable to change the standard sap posting key, recommended to create new
+
 </br></br>
 
 
