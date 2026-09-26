@@ -26,7 +26,7 @@ Yes, SAP CO-PA (Profitability Analysis) is directly related to the traditional P
 
 **Operating Concern** is the highest level of hierarchy in CO module it is 3 digit alpha numeric key
 
-**Controlling Area** will have an assignment with operating concern 1:N one-to-many relation one Controlling area can be assigned to many company code 
+**Controlling Area** will have an assignment with operating concern 1:N one-to-many relation one Controlling area can be assigned to many company code, it is also used for calculating overhead cost for a business
 
 **Profit Center** is an internal accounting organizational unit used to track both revenues and costs, allowing management to evaluate the financial performance of specific business segments, product lines, or geographic regions.
 
