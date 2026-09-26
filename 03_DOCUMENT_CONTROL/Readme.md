@@ -61,7 +61,7 @@ in 2025 the first document created will be 1800000001
 3. Vendor
 4. Material
 5. G/L Account 
-
+ 
 
 Item level contains posting keys and posting key is a representation of a transaction it is a major component 
 
@@ -72,8 +72,15 @@ it is not advisable to change the standard sap posting key, recommended to creat
 </br></br>
 
 
-## What is General Ledger Accounts ?
+## What is posting in SAP ?
 
+Posting in SAP is the official process of recording a business or financial transaction into the system's general ledger and accounting tables, creating a permanent audit trail
+
+</br>
+
+## General Ledger posting 
+
+General ledger (G/L) posting in SAP is the core financial process of recording business transactions as debits and credits into the central accounting repository
 
 
 </br></br>
