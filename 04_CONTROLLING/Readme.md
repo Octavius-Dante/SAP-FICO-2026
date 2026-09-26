@@ -28,6 +28,13 @@ Yes, SAP CO-PA (Profitability Analysis) is directly related to the traditional P
 
 **Controlling Area** will have an assignment with operating concern 1:N one-to-many relation one Controlling area can be assigned to many company code, it is also used for calculating overhead cost for a business
 
+</br>
+
+> [!NOTE]
+> 1 Controlling Area = One Chart of accounts = One Fiscal year variant 
+
+</br>
+
 **Profit Center** is an internal accounting organizational unit used to track both revenues and costs, allowing management to evaluate the financial performance of specific business segments, product lines, or geographic regions.
 
 **SAP recommends #1** 1 Controlling area for one type of business if there is multiple controlling area in an organization it means that company has multiple nature of business 
