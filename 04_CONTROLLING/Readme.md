@@ -32,6 +32,8 @@ Yes, SAP CO-PA (Profitability Analysis) is directly related to the traditional P
 
 > [!NOTE]
 > 1 Controlling Area = One Chart of accounts = One Fiscal year variant 
+</br>
+
 > Where Cost center standard hierarchy is created - Controlling Area
 
 </br>
