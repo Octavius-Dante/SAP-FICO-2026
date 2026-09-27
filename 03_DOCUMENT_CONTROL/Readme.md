@@ -94,6 +94,7 @@ G/L posting can be performed in 2 ways in SAP
 - **G/L document is only used for internal posting purposes**  
 - **Customer and Vendor document are used for external purposes** 
 
+</br>
 
 ## Reference Document
 
@@ -103,6 +104,26 @@ lets say you have 100's of line item in a document manually input all 100 items 
 
 - FKMT   : FI Acct Assignment Model Management	 
 
+</br>
+
+## Recurring Document 
+
+A recurring document in SAP is a template used to automate business transactions that repeat at regular intervals with fixed amounts and accounts
+
+</br>
+
+#### Key Characteristics 
+
+- **Not an Accounting Document:** Creating a recurring document does not update account balances or generate actual transaction figures; it serves purely as a reference model.- 
+
+- **Fixed Data:** The posting key, accounts, and amounts remain constant across postings.
+
+- **Validity Period:** Defines a start date (first run), an end date (last run), and a posting frequency (interval in months).
+
+- FBD1: Create a recurring document
+- FBD2: Change a recurring document
+- FBD3: Display a recurring document
+- F.14 / F.15: Execute or post recurring entries (create batch input sessions)
 
 </br></br>
 
