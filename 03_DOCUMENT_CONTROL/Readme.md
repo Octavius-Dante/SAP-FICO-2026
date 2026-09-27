@@ -101,8 +101,7 @@ Instead of creating a document from scratch it is more convenient to create a do
 
 lets say you have 100's of line item in a document manually input all 100 items is cumbersome so take a reference and change only the necessary in that 100 line items or even changing all 100 items it reduces some manual work comparing to create it from scratch 
 
-
-
+- FKMT   : FI Acct Assignment Model Management	 
 
 
 </br></br>
