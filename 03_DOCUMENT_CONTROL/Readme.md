@@ -86,9 +86,23 @@ G/L posting can be performed in 2 ways in SAP
 
  - F-02  : "General posting" - is an old way of posting the documents 
  - FB50  : "Enter GL account document" is the most user friendly way of posting 
+ - FB02  : Change Document 
+ - FB09  : Change Line items 
+ - FB03  : Display 
+
 
 - **G/L document is only used for internal posting purposes**  
 - **Customer and Vendor document are used for external purposes** 
+
+
+## Reference Document
+
+Instead of creating a document from scratch it is more convenient to create a document by taking reference it reduces manual effort of filling more input fields in screen
+
+lets say you have 100's of line item in a document manually input all 100 items is cumbersome so take a reference and change only the necessary in that 100 line items or even changing all 100 items it reduces some manual work comparing to create it from scratch 
+
+
+
 
 
 </br></br>
