@@ -111,7 +111,7 @@ G/L posting can be performed in 2 ways in SAP
 
 - **Subledger Integration:** Automatically reconciles data from submodules like Accounts Payable (AP), Accounts Receivable (AR), and Asset Accounting (AA).
 
-- **Subledger Integration:** Supports simultaneous compliance with multiple accounting standards, such as IFRS and local GAAP.
+- **Parallel Accounting:** Supports simultaneous compliance with multiple accounting standards, such as IFRS and local GAAP.
 
 </br>
 
