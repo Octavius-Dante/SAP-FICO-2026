@@ -78,7 +78,7 @@ Posting in SAP is the official process of recording a business or financial tran
 
 </br>
 
-## General Ledger posting 
+## General Ledger posting (FI-GL)
 
 General ledger (G/L) posting in SAP is the core financial process of recording business transactions as debits and credits into the central accounting repository
  
@@ -155,11 +155,28 @@ A recurring document in SAP is a template used to automate business transactions
 
 **Accounts Receivable (FI-AR)** in SAP is a sub-module in SAP Financial Accounting that records, tracks, and manages all accounting data and financial transactions related to customers.
 
-
 It forms the financial backbone of the **Order-to-Cash (O2C)** cycle, ensuring that money owed by customers for goods or services delivered on credit is accurately billed, collected, and reconciled.
 
+**Customer invoice** in SAP is a formal financial document used to bill a buyer for delivered goods or provided services, record accounts receivable, and trigger revenue recognition
 
 
+</br>
+
+#### Core Characteristics
+
+**Purpose:** Requests payment from a customer and updates financial ledgers.
+
+**Integration:** Connects logistics (Sales and Distribution) with financial accounting (FI) in an SAP Help Portal workflow.
+
+**Key Data:** Contains customer IDs, line items, pricing, taxes, and payment terms.
+
+</br>
+
+#### How Invoices are Created in SAP
+
+- **Sales and Distribution (SD) Billing:** Generated automatically or manually via transaction VF01 (often referencing a delivery or sales order).
+
+- **Financial Accounting (FI) Entry:** Posted directly through transactions like FB70 (for customer invoice entry) or F-22 (Customer Invoice posting) when no prior sales order exists.
 
 
 </br></br>
