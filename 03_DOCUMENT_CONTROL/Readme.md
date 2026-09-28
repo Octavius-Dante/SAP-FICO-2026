@@ -98,6 +98,13 @@ G/L posting can be performed in 2 ways in SAP
 
 </br>
 
+**Chart of Accounts Segment:** Defines the account number, name, and general layout valid for the entire corporate structure.
+
+**Company Code Segment:** Contains specific operational rules (such as currency or tax settings) applied when extending the account to a specific company code.
+
+
+</br>
+
 #### Core Functions 
 
  - **Central Repository:** Records all debits and credits across an enterprise to maintain a real-time picture of financial health.
