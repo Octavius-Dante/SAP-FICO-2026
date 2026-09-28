@@ -86,13 +86,36 @@ G/L posting can be performed in 2 ways in SAP
 
  - F-02  : "General posting" - is an old way of posting the documents 
  - FB50  : "Enter GL account document" is the most user friendly way of posting 
+
+**Other Transactions related to Posting Vie and change**
+
  - FB02  : Change Document 
  - FB09  : Change Line items 
  - FB03  : Display 
 
-
 - **G/L document is only used for internal posting purposes**  
 - **Customer and Vendor document are used for external purposes** 
+
+</br>
+
+#### Core Functions 
+
+ - **Central Repository:** Records all debits and credits across an enterprise to maintain a real-time picture of financial health.
+
+- **Subledger Integration:** Automatically reconciles data from submodules like Accounts Payable (AP), Accounts Receivable (AR), and Asset Accounting (AA).
+
+- **Subledger Integration:** Supports simultaneous compliance with multiple accounting standards, such as IFRS and local GAAP.
+
+</br>
+
+#### Key Building Blocks
+
+- **Chart of Accounts (COA):** A categorized list of all general ledger accounts used by a business.
+
+- **Account Groups:** Classify accounts (e.g., assets, liabilities, revenues, expenses) and determine their number ranges and required creation fields.
+
+- **Field Status Groups:** Control whether specific posting fields are required, optional, or hidden during data entry.
+
 
 </br>
 
@@ -125,16 +148,19 @@ A recurring document in SAP is a template used to automate business transactions
 - FBD3: Display a recurring document
 - F.14 / F.15: Execute or post recurring entries (create batch input sessions)
 
-</br></br>
-
 </br>
 
 
+## Accounts Receivable (FI-AR)
+
+**Accounts Receivable (FI-AR)** in SAP is a sub-module in SAP Financial Accounting that records, tracks, and manages all accounting data and financial transactions related to customers.
+
+
+It forms the financial backbone of the **Order-to-Cash (O2C)** cycle, ensuring that money owed by customers for goods or services delivered on credit is accurately billed, collected, and reconciled.
 
 
 
-> [!NOTE]
-> test sample 
+
 
 </br></br>
 
