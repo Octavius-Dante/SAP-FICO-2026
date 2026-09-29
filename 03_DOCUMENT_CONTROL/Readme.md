@@ -185,12 +185,43 @@ It forms the financial backbone of the **Order-to-Cash (O2C)** cycle, ensuring t
 
 - **Financial Accounting (FI) Entry:** Posted directly through transactions like FB70 (for customer invoice entry) or F-22 (Customer Invoice posting) when no prior sales order exists.
 
+</br>
 
-</br></br>
+
+## What is Credit Memo ?
+
+ It is a financial document used to reduce the amount owed on an existing invoice due to returns, overcharging, or damaged goods.
+
+
+• It lowers the total amount a customer needs to pay or that a company needs to pay a vendor.
+
+• It corrects billing errors without deleting the original invoice.
+
+• It creates a debit balance on the vendor side or a credit balance on the customer side to balance accounts.
+
+</br>
+
+#### Common Transaction Codes (T-Codes)
+
+• FB75 : Customer Credit Memo (Accounts Receivable).
+• FB65 : Vendor Credit Memo (Accounts Payable).
+• VA01 / Fiori Apps: Creating a Credit Memo Request in Sales and Distribution (SD).
+
+</br>
+
+#### How the Process Works
+
+1. Identify the Error: Spot an overcharge, return, or damaged item after the initial invoice is posted.
+
+2. Create a Request (Optional): Many systems use a Credit Memo Request first so managers can review and approve the change before posting.
+
+3. Post the Credit Memo: Enter the reference billing document or purchase order number, adjust the amount or quantity, and save the transaction to update the ledger.
 
 </br>
 
 
+
+</br>
 </br></br>
 
 <p align="center"> <a href="https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main"> FICO-2026 Main page </a> </p>
