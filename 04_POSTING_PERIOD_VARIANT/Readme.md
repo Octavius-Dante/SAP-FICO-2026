@@ -21,12 +21,12 @@ A posting period variant in SAP is a control tool that opens and closes accounti
 
 - **Account Types:** SAP uses specific letters to control posting access:
 
-    • +: All account types (must be open first)
-    • A: Assets
-    • D: Customers
-    • K: Vendors/Suppliers
-    • M: Materials
-    • S: General Ledger
+        • +: All account types (must be open first)
+        • A: Assets
+        • D: Customers
+        • K: Vendors/Suppliers
+        • M: Materials
+        • S: General Ledger
 
 - **Period Ranges:** It sets a starting period/year and an ending period/year for regular operations (periods 1–12) and special year-end adjustment periods (13–16).
 
