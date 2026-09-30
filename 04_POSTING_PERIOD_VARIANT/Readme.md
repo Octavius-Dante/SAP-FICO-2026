@@ -66,6 +66,27 @@ A posting period variant in SAP is a control tool that opens and closes accounti
 
 • **Background Scheduling:** High-volume enterprises often schedule MMPV via background jobs (using program RMMPERI via SM37) to automate period rollover at month-end
 
+</br>
+
+## Posting Authorizations 
+
+is the security and control framework used to govern which users can create, modify, approve, and post financial or operational
+
+</br>
+
+#### Core Mechanisms of Posting Authorization
+
+**• Tolerance Groups:** Define upper financial limits for individual postings and payment differences, controlling how much money a specific user or group is allowed to move.
+
+**• Posting Period Controls:** Gatekeepers like transaction OB52 or the Manage Posting Periods app dictate which fiscal periods are open for booking.
+
+**• Authorization Objects:** Specific security objects (such as F_BKPF_BUP for posting periods, F_BKPF_BUK for company codes, and F_BKPF_KOA for account types) restrict access at the database and activity level.
+
+**• Approval Procedures:** Automatically reroute transactions that exceed designated thresholds into draft or workflow approval states before final posting can occur.
+
+</br>
+
+
 
 </br></br>
 
