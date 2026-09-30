@@ -35,9 +35,7 @@ A posting period variant in SAP is a control tool that opens and closes accounti
 #### Key Transactions and Apps
 
 • OBBO: Transaction code to define a new posting period variant.
-
 • OB52: Transaction code to open and close posting periods for the variant.
-
 • Manage Posting Periods: The SAP Fiori app used in modern SAP S/4HANA systems to handle period statuses.
 
 </br>
