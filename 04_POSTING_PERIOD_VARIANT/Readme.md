@@ -42,6 +42,30 @@ A posting period variant in SAP is a control tool that opens and closes accounti
 
 </br>
 
+## Material Master Period Management
+
+ controls inventory posting periods to ensure that stock movements and valuations are recorded in the correct financial timeframe
+
+</br>
+
+#### Key Transaction Codes
+
+• MMPV: Closes the current Materials Management (MM) posting period and opens the next one sequentially. You cannot skip periods.
+
+• MMRV: Displays the current open MM period and allows or disallows back-postings (postings to the previous period).
+
+• OB52: Manages financial (FI) posting periods, which must align with MM period controls, specifically for account type M (materials).
+
+</br>
+
+#### Core Operations
+
+• **Closing and Opening Periods (MMPV):** Run monthly to advance the material ledger control record. Enter your company code along with the target period and year.
+
+• **Allowing Previous Period Postings (MMRV):** Check the "Allow posting to previous period" box if goods movements must be posted to the prior month.
+
+• **Background Scheduling:** High-volume enterprises often schedule MMPV via background jobs (using program RMMPERI via SM37) to automate period rollover at month-end
+
 
 </br></br>
 
