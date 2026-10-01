@@ -72,7 +72,7 @@ A posting period variant in SAP is a control tool that opens and closes accounti
 
 is the security and control framework used to govern which users can create, modify, approve, and post financial or operational
 
-</br>
+</br> 
 
 #### Core Mechanisms of Posting Authorization
 
