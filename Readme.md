@@ -91,6 +91,9 @@ SCC1 - Cross Client transport import
 - [Basic Settings](https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main/01_BASIC_SETTINGS)
 - [Master Data](https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main/02_MASTER_DATA)
 - [Document Control](https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main/03_DOCUMENT_CONTROL)
+- [Posting Period Variant](https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main/04_POSTING_PERIOD_VARIANT)
+- [Posting Control](https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main/05_POSTING_CONTROL)
+
 
 
 
