@@ -17,6 +17,10 @@
 
 Posting with clearing in SAP matches open items (like invoices) against offsetting entries (like payments or credit memos) to zero out and close customer or vendor accounts
 
+Create a Discount Payment terms in OBB8 and assign it to Customer in FD02 / XD02 company code -> payment transaction tab -> payment terms
+
+so when posting document using this customer will pick this payment terms in case payment terms is suppressed in FB70 Transaction then Find the GL involved for this document in details tab and locate the G/L Account number Open the GL in FS00 transaction and view the field status group assigned for this G/L lcoate the Field status group number in tab (Create/bank/interest) then Open OBC4 and view the Field status groupand here the mising field can be located 
+
 </br>
 
 #### SAP Clearing Overview
