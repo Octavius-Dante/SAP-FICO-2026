@@ -86,12 +86,28 @@ Payment terms in SAP are 4-character keys that automate invoice due dates, cash 
 
 #### Common Types of Payment Terms
 
-**Type**	        **Description**	                **SAP Example / Behavior**
-
-Fixed / Net	Fixed days from baseline date	0001 (Immediate) or Net 30 
-</br>
-Cash Discount	Percentage off if paid early	2% discount within 10 days, Net 30 </br>
-Installment	Split across custom timelines	Configured via parent term & OBB9 </br>
+<table>
+    <tr>
+        <td>Type</td>
+        <td>Description</td>
+        <td>SAP Example / Behavior</td>
+    </tr>
+    <tr>
+        <td>Fixed / Net</td>
+        <td>Fixed days from baseline date</td>
+        <td>0001 (Immediate) or Net 30</td>
+    </tr>
+    <tr>
+        <td>Cash Discount</td>
+        <td>Percentage off if paid early</td>
+        <td>2% discount within 10 days, Net 30</td>
+    </tr>
+    <tr>
+        <td>Installment</td>
+        <td>Split across custom timelines</td>
+        <td>Configured via parent term &amp; OBB9</td>
+    </tr>
+</table>
 
 
 </br></br>
