@@ -28,7 +28,7 @@ line items should be carefully chosen with account types defined in OB32
         D - Customers 
         M - Materials 
         K - Vendors 
-        S - G/L accounts
+        S - G/L accounts 
 
 </br>
 
@@ -47,7 +47,13 @@ Financial Accounting (New) > General Ledger Accounting (New) > Business Transact
 
 </br>
 
+- Normal Reverse posting is for Customer invoice (FB70) AR
+- Negative Reverse posting is for Vendor invoice (FB60) AP
+- Normal Reversal and Negative Reversal both are performed in (FB08)
 
+In the background credit memo is posted and reversal document is created in SAP when reversal processing happens 
+
+Go to FB03 and enter the original invoice which was reversed and see the document flow in (Environment -> Display Document Flow)
 
 </br></br>
 
