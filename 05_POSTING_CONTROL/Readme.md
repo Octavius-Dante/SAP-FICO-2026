@@ -56,7 +56,7 @@ Go to FB03 and enter the original invoice which was reversed and see the documen
 
 </br>
 
-## Payment Terms and Cash Discounts
+## Payment Terms and Discounts
 
 Payment terms in SAP are 4-character keys that automate invoice due dates, cash discount percentages, and installment splits for customers and vendors
 
@@ -108,6 +108,14 @@ Payment terms in SAP are 4-character keys that automate invoice due dates, cash 
         <td>Configured via parent term &amp; OBB9</td>
     </tr>
 </table>
+
+
+</br>
+
+## Cash Discounts 
+
+
+
 
 
 </br></br>
