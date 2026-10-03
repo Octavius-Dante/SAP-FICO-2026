@@ -44,7 +44,6 @@ Financial Accounting (New) > General Ledger Accounting (New) > Business Transact
 
 Financial Accounting (New) > General Ledger Accounting (New) > Business Transactions > Adjustment Posting/Reversal > Define Reasons for Reversal 
 
-
 </br>
 
 - Normal Reverse posting is for Customer invoice (FB70) AR
@@ -54,6 +53,46 @@ Financial Accounting (New) > General Ledger Accounting (New) > Business Transact
 In the background credit memo is posted and reversal document is created in SAP when reversal processing happens 
 
 Go to FB03 and enter the original invoice which was reversed and see the document flow in (Environment -> Display Document Flow)
+
+</br>
+
+## Payment Terms and Cash Discounts
+
+Payment terms in SAP are 4-character keys that automate invoice due dates, cash discount percentages, and installment splits for customers and vendors
+
+</br>
+
+ #### Core Components
+
+**• Baseline Date:** Starting point for calculation (document, posting, or entry date).
+
+**• Discount Periods:** Early payment windows and respective percentages.
+
+**• Net Due Date:** Final day full payment is required.
+
+**• Installment Splits:** Dividing total amounts across multiple payment dates.
+
+</br>
+
+#### Key Configuration & Master Data
+
+**• T-Code OBB8:** Maintain and create new payment terms globally.
+
+**• T-Code OB88 / SPRO:** Path via Financial Accounting > Accounts Receivable/Payable > Business Transactions > Maintain Terms of Payment.
+
+**• Business Partner (BP):** Assigned in vendor/customer master segments (FI, MM, or SD views).
+
+</br>
+
+#### Common Types of Payment Terms
+
+**Type**	        **Description**	                **SAP Example / Behavior**
+
+Fixed / Net	Fixed days from baseline date	0001 (Immediate) or Net 30 
+</br>
+Cash Discount	Percentage off if paid early	2% discount within 10 days, Net 30 </br>
+Installment	Split across custom timelines	Configured via parent term & OBB9 </br>
+
 
 </br></br>
 
