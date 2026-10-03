@@ -114,9 +114,33 @@ Payment terms in SAP are 4-character keys that automate invoice due dates, cash 
 
 ## Cash Discounts 
 
+A cash discount in SAP is a percentage reduction off an invoice amount granted to customers or received from vendors for early payment
+
+2 G/L accoutns will be created for Cash discounts then it can be set for automatic payments 
+
+- Cash discount Revenue 
+- Cash discount Expense 
+
+</br>
+
+#### Configuration Steps
+
+**• Define terms:** Set up payment percentages and days using transaction OBB8.
+
+**• Assign G/L accounts:** Link discount received/granted accounts via transaction OBXU or OBY6.
+
+**• Update master data:** Attach payment terms to customer or vendor master records.
+
+</br>
+
+#### Accounting Procedures
+
+**• Gross procedure:** Discounts are calculated and posted only when the payment is executed.
+
+**• Net procedure:** Discounts are deducted immediately at the time of invoice posting.
 
 
-
+</br>
 
 </br></br>
 
