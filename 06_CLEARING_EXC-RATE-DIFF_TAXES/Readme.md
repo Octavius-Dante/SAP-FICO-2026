@@ -144,16 +144,6 @@ In Case of Payable
 - Lower exchange rate transaction -> Higher exchange rate (payment) payable is a Loss (Assessed for book but not received)
 
 
-</br></br></br>
-
-
-#### Understanding the Process
-
-- Trigger: Period-end foreign currency valuation.
-- Purpose: Financial reporting accuracy.
-- Reversal: Automatic reverse posting next period.
-- Key T-Code: F.05 
-
 </br></br>
 
 **An Unrealized exchange rate Gain** in SAP is a paper gain recorded during period-end foreign currency valuation for open items that have not yet been settled or cleared.
@@ -170,6 +160,17 @@ In Case of Payable
 
 
 Document clearing (payment run via F-53 or FB05)
+
+
+</br></br></br>
+
+
+#### Understanding the Process
+
+- Trigger: Period-end foreign currency valuation.
+- Purpose: Financial reporting accuracy.
+- Reversal: Automatic reverse posting next period.
+- Key T-Code: F.05 
 
 
 </br>
