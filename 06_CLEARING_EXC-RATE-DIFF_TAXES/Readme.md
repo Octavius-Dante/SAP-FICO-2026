@@ -235,7 +235,6 @@ Document clearing (payment run via F-53 or FB05)
 
 Taxes in SAP refer to the automated calculation, posting, and reporting of statutory financial charges (such as VAT, GST, sales tax, or withholding tax) integrated across business modules like Financial Accounting (FI), Sales and Distribution (SD), and Materials Management (MM).
 
-
 - Input Tax (Purchases from Vendor) - Assets
 - Output Tax (Sales to customer) - Liability
 
