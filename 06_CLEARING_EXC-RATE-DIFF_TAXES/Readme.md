@@ -235,9 +235,14 @@ Document clearing (payment run via F-53 or FB05)
 
 Taxes in SAP refer to the automated calculation, posting, and reporting of statutory financial charges (such as VAT, GST, sales tax, or withholding tax) integrated across business modules like Financial Accounting (FI), Sales and Distribution (SD), and Materials Management (MM).
 
-- Input Tax (Purchases from Vendor) - Assets (When your Purchases are More than your sales you can claim that taxes Revenue and Customs)
+- Input Tax (Purchases from Vendor) - Assets (When your Purchases are More than your sales you can claim that taxes Revenue and Customs) standard rate 20%
 
-- Output Tax (Sales to customer) - Liability (When your Sales is more than your purchases then you have to pay taxes to Revenue and Customs)
+- Output Tax (Sales to customer) - Liability (When your Sales is more than your purchases then you have to pay taxes to Revenue and Customs) standard rate 20%
+
+- Zero 0% Tax (Need to produce the transaction documents which are Involved with 0% evidence when you are making the claim)
+
+- Exempt from Tax (Not required to produce the evidence like a transaction donation to a charitable organization , non-profit organization)
+
 
 </br>
 
