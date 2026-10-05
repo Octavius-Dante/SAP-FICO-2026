@@ -60,6 +60,55 @@ so when posting document using this customer will pick this payment terms in cas
 **• Simulate & Post:** Verify balance reaches zero before final posting.
 
 
+#### Payment terms and cast Discount 
+
+**Account Clearing:** Offsetting existing line items with no new posting. 
+
+**Post with Clearing:** Entering a payment while simultaneously closing the open invoice.
+
+- Post with clearing AR (F-32) 
+- Post with clearing AP (F-44) 
+- Post with clearing G/L (F-04)
+- Incoming payment (F-28)
+- Outgoing Payment (F-53)
+- Reversal posting AR/AP (FB08)
+
+</br>
+
+## Exchange rate Differences
+
+When open items in a foreign currency are cleared, SAP automatically calculates and posts realized exchange rate gains or losses to designated G/L accounts.
+
+</br>
+
+#### Core Mechanics
+
+**• The Trigger:** Exchange rate changes between the original posting date and the clearing date.
+
+**• The Calculation:** SAP compares the local currency amount posted initially versus the value at the clearing exchange rate.
+
+**• The Result:** SAP automatically generates a balancing line item for the realized gain or loss.
+
+</br>
+
+#### Configuration & Setup
+
+**• Account Determination:** Configured via transaction OBA1 (or transaction key KDF).
+
+**• Exchange Rates:** Maintained in table via transaction OB08.
+
+**• Tolerance Groups:** Handled through configuration to manage small rounding or payment differences.
+
+</br>
+
+#### Common Issues & Troubleshooting
+
+**• Massive/Unexpected Diffs:** Often caused by manual local currency overrides or incorrect rates in OB08 on the clearing day.
+
+**• Valuation Carryover:** Prior foreign currency valuations (F.05 / advanced valuation) might leave delta balances that interact with clearing logic.
+
+**• Local Currency Settings:** Check the "No Exch. Rate Diff. When Clearing in LC" indicator if clearing foreign currency with local currency creates unwanted delta entries.
+
 </br>
 
 </br></br>
