@@ -149,10 +149,10 @@ In Case of Payable
 
 #### Understanding the Process
 
-• Trigger: Period-end foreign currency valuation.
-• Purpose: Financial reporting accuracy.
-• Reversal: Automatic reverse posting next period.
-• Key T-Code: F.05 
+- Trigger: Period-end foreign currency valuation.
+- Purpose: Financial reporting accuracy.
+- Reversal: Automatic reverse posting next period.
+- Key T-Code: F.05 
 
 </br></br>
 
