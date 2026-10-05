@@ -83,8 +83,8 @@ configuration is the first major phase when setting up SAP Financial Accounting 
 
 </br>
 
-SCC4 - SAP Client creation T-code
-SCC1 - Cross Client transport import
+- SCC4 - SAP Client creation T-code
+- SCC1 - Cross Client transport import
 
 ## Table of contents 
 
