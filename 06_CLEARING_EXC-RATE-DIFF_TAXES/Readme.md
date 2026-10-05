@@ -106,6 +106,7 @@ In case of Receivable
 Transaction Value of Euro on Jan 1st 1 euro = 100 INR - Transaction recorded date 
 
 Transaction Value of Euro on Feb 1st 1 euro = 90 INR - Payment for transaction 
+(Actual Payment Received)
 
 </br>
 
@@ -117,7 +118,8 @@ In Case of Payable
 
 Transaction Value of Euro on Jan 1st 1 euro = 100 INR - Transaction recorded date 
 
-Transaction Value of Euro on Feb 1st 1 euro = 90 INR  - Payment for transaction 
+Transaction Value of Euro on Feb 1st 1 euro = 110 INR - Payment for transaction 
+(Actual Payment Done)
 
 </br></br>
 
@@ -135,7 +137,7 @@ In case of Receivable
 
 Transaction Value of Euro on Jan 1st 1 euro = 100 INR - Transaction recorded date 
 
-Transaction Value of Euro on Feb 1st 1 euro = 110 INR  - Payment for transaction  (Payment received)
+Transaction Value of Euro on Feb 1st 1 euro = 110 INR  - Payment for transaction (Actual Payment Received)
 
 </br>
 
@@ -147,7 +149,7 @@ In Case of Payable
 
 Transaction Value of Euro on Jan 1st 1 euro = 100 INR - Transaction recorded date 
 
-Transaction Value of Euro on Feb 1st 1 euro = 90 INR  - Payment for transaction  (Payment Done)
+Transaction Value of Euro on Feb 1st 1 euro = 90 INR  - Payment for transaction (Actual Payment Done)
 
 </br></br>
 
