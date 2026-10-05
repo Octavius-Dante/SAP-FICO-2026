@@ -143,6 +143,10 @@ In Case of Payable
 
 - Lower exchange rate transaction -> Higher exchange rate (payment) payable is a Loss (Assessed for book but not received)
 
+
+</br></br></br>
+
+
 #### Understanding the Process
 
 • Trigger: Period-end foreign currency valuation.
