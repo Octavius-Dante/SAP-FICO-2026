@@ -91,7 +91,9 @@ Postings are done automatically
 
 </br></br>
 
-**A realized exchange rate loss** Transaction recorded at a higher exchange rate and payment for that transaction cleared at a lower exchange rate this difference of reduced value of the exchange rate is a loss due to exchange rate fluctuation in the market. Vice versa of this is A realized exchange rate Gain
+### A realized exchange rate loss
+
+ Transaction recorded at a higher exchange rate and payment for that transaction cleared at a lower exchange rate this difference of reduced value of the exchange rate is a loss due to exchange rate fluctuation in the market. Vice versa of this is A realized exchange rate Gain
 
 **In other words A realized exchange rate loss is an Actual Loss**
 
@@ -111,7 +113,9 @@ Transaction Value of Euro on Feb 1st 1 euro = 90 INR  - Payment for transaction
 
 </br></br>
 
-**A realized exchange rate Gain** transaction recorded in a lower exchange rate and payment cleared in a higher exchange rate results in gain because of the growth of the exchange rate value gives a higher yield profit because of boost in currency value
+### A realized exchange rate Gain
+
+Transaction recorded in a lower exchange rate and payment cleared in a higher exchange rate results in gain because of the growth of the exchange rate value gives a higher yield profit because of boost in currency value
 
 **In other words A realized exchange rate Gain is an Actual Gain**
 
@@ -131,7 +135,9 @@ Transaction Value of Euro on Feb 1st 1 euro = 110 INR  - Payment for transaction
 
 </br></br>
 
-**An Unrealized exchange rate loss** in SAP occurs when open items or foreign currency balances are revalued at the closing period rate, creating a paper loss before settlement.
+### An Unrealized exchange rate loss
+
+An Unrealized exchange rate loss In SAP occurs when open items or foreign currency balances are revalued at the closing period rate, creating a paper loss before settlement.
 
 **In other words An Unrealized exchange rate loss is not an Actual Loss it is a Bookkeeping record of awaiting receivable (Transaction happened at higher exchange rate and now exchange rate value is going down) if received it will be a loss, since payment is not received or cleared its just assessed in books for record**
 
@@ -146,7 +152,9 @@ In Case of Payable
 
 </br></br>
 
-**An Unrealized exchange rate Gain** in SAP is a paper gain recorded during period-end foreign currency valuation for open items that have not yet been settled or cleared.
+### An Unrealized exchange rate Gain 
+
+An Unrealized exchange rate Gain in SAP is a paper gain recorded during period-end foreign currency valuation for open items that have not yet been settled or cleared.
 
 **In other words An Unrealized exchange rate Gain is not an Actual Gain it is a Bookkeeping record of awaiting receivable (Transaction happened at lower exchange rate and now exchange rate value is going up) if received it will be a Gain, since payment is not received or cleared its just assessed in books for record**
 
