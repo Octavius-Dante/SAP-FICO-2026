@@ -165,7 +165,7 @@ In case of Receivable
 
 In Case of Payable
 
-- Lower exchange rate transaction -> Higher exchange rate (payment) payable is a Loss (Assessed for book but not received)
+- Lower exchange rate transaction -> Higher exchange rate (payment) payable is a Loss (Assessed for book but not paid)
 
 
 </br></br>
@@ -182,7 +182,7 @@ In case of Receivable
 
 In Case of Payable
 
-- Higher exchange rate transaction -> Lower exchange rate (payment) payable is a Gain (Assessed for book but not received)
+- Higher exchange rate transaction -> Lower exchange rate (payment) payable is a Gain (Assessed for book but not paid)
 
 
 Document clearing (payment run via F-53 or FB05)
