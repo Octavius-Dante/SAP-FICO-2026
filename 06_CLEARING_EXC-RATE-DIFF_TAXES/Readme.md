@@ -79,6 +79,38 @@ so when posting document using this customer will pick this payment terms in cas
 
 When open items in a foreign currency are cleared, SAP automatically calculates and posts realized exchange rate gains or losses to designated G/L accounts.
 
+Account numbering sample
+
+- Exchange Rate Realized Loss - 5810
+- Exchange Rate Un Realized Loss - 5815
+- Exchange Rate Realized Gain - 6810
+- Exchange Rate Un Realized Gain - 6815
+- Balance sheet Adjustment - 1099
+
+
+**A realized exchange rate loss** Transaction recorded at a higher exchange rate and payment for that transaction cleared at a lower exchange rate this difference of reduced value of the exchange rate is a loss due to exchange rate fluctuation in the market. Vice versa of this is A realized exchange rate Gain
+
+</br>
+
+##### Example : 
+
+Transaction Value of Euro on Jan 1st 1 euro = 100 INR - Transaction recorded date 
+
+Transaction Value of Euro on Feb 1st 1 euro = 90 INR  - Payment for transaction 
+
+**A realized exchange rate Gain** transaction recorded in a lower exchange rate and payment cleared in a higher exchange rate results in gain because of the growth of the exchange rate value gives a higher yield profit because of boost in currency value
+
+</br>
+
+##### Example : 
+
+Transaction Value of Euro on Jan 1st 1 euro = 100 INR - Transaction recorded date 
+
+Transaction Value of Euro on Feb 1st 1 euro = 110 INR  - Payment for transaction 
+
+Document clearing (payment run via F-53 or FB05)
+
+
 </br>
 
 #### Core Mechanics
