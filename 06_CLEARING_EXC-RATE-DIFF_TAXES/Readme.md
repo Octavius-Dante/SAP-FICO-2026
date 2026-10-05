@@ -87,11 +87,21 @@ Account numbering sample
 - Exchange Rate Un Realized Gain - 6815
 - Balance sheet Adjustment - 1099
 
+Postings are done automatically 
+
 </br></br>
 
 **A realized exchange rate loss** Transaction recorded at a higher exchange rate and payment for that transaction cleared at a lower exchange rate this difference of reduced value of the exchange rate is a loss due to exchange rate fluctuation in the market. Vice versa of this is A realized exchange rate Gain
 
 **In other words A realized exchange rate loss is an Actual Loss**
+
+In case of Receivable 
+
+- Higher exchange rate transaction -> lower exchange rate (payment) receivable is a Loss (Actual Payment Received)
+
+In Case of Payable
+
+- Lower exchange rate transaction -> Higher exchange rate (payment) payable is a Loss (Actual Payment Done)
 
 ##### Example : 
 
@@ -104,6 +114,14 @@ Transaction Value of Euro on Feb 1st 1 euro = 90 INR  - Payment for transaction
 **A realized exchange rate Gain** transaction recorded in a lower exchange rate and payment cleared in a higher exchange rate results in gain because of the growth of the exchange rate value gives a higher yield profit because of boost in currency value
 
 **In other words A realized exchange rate Gain is an Actual Gain**
+
+In case of Receivable 
+
+- Lower exchange rate transaction -> Higher exchange rate (payment) receivable is a Gain (Actual Payment Received)
+
+In Case of Payable
+
+- Higher exchange rate transaction -> Lower exchange rate (payment) payable is a Gain (Actual Payment Done)
 
 ##### Example : 
 
@@ -119,11 +137,11 @@ Transaction Value of Euro on Feb 1st 1 euro = 110 INR  - Payment for transaction
 
 In case of Receivable 
 
-- Higher exchange rate transaction -> lower exchange rate (payment) receivable is a Loss 
+- Higher exchange rate transaction -> lower exchange rate (payment) receivable is a Loss (Assessed for book but not received)
 
 In Case of Payable
 
-- Lower exchange rate transaction -> Higher exchange rate (payment) payable is a Loss 
+- Lower exchange rate transaction -> Higher exchange rate (payment) payable is a Loss (Assessed for book but not received)
 
 #### Understanding the Process
 
@@ -140,11 +158,11 @@ In Case of Payable
 
 In case of Receivable 
 
-- Lower exchange rate transaction -> Higher exchange rate (payment) receivable is a Gain
+- Lower exchange rate transaction -> Higher exchange rate (payment) receivable is a Gain (Assessed for book but not received)
 
 In Case of Payable
 
-- Higher exchange rate transaction -> Lower exchange rate (payment) payable is a Gain 
+- Higher exchange rate transaction -> Lower exchange rate (payment) payable is a Gain (Assessed for book but not received)
 
 
 Document clearing (payment run via F-53 or FB05)
