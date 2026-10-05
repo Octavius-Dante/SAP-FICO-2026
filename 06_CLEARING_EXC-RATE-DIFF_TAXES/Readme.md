@@ -101,6 +101,14 @@ In case of Receivable
 
 - Higher exchange rate transaction -> lower exchange rate (payment) receivable is a Loss (Actual Payment Received)
 
+##### Example : 
+
+Transaction Value of Euro on Jan 1st 1 euro = 100 INR - Transaction recorded date 
+
+Transaction Value of Euro on Feb 1st 1 euro = 90 INR - Payment for transaction 
+
+</br>
+
 In Case of Payable
 
 - Lower exchange rate transaction -> Higher exchange rate (payment) payable is a Loss (Actual Payment Done)
@@ -123,6 +131,14 @@ In case of Receivable
 
 - Lower exchange rate transaction -> Higher exchange rate (payment) receivable is a Gain (Actual Payment Received)
 
+##### Example : 
+
+Transaction Value of Euro on Jan 1st 1 euro = 100 INR - Transaction recorded date 
+
+Transaction Value of Euro on Feb 1st 1 euro = 110 INR  - Payment for transaction  (Payment received)
+
+</br>
+
 In Case of Payable
 
 - Higher exchange rate transaction -> Lower exchange rate (payment) payable is a Gain (Actual Payment Done)
@@ -131,7 +147,7 @@ In Case of Payable
 
 Transaction Value of Euro on Jan 1st 1 euro = 100 INR - Transaction recorded date 
 
-Transaction Value of Euro on Feb 1st 1 euro = 110 INR  - Payment for transaction 
+Transaction Value of Euro on Feb 1st 1 euro = 90 INR  - Payment for transaction  (Payment Done)
 
 </br></br>
 
