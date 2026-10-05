@@ -100,7 +100,7 @@ Postings are done automatically
 In case of Receivable 
 
 - Higher exchange rate transaction -> lower exchange rate (payment) receivable is a Loss (Actual Payment Received)
-
+    
 ##### Example : 
 
 Transaction Value of Euro on Jan 1st 1 euro = 100 INR - Transaction recorded date 
@@ -229,7 +229,32 @@ Document clearing (payment run via F-53 or FB05)
 
 **• Local Currency Settings:** Check the "No Exch. Rate Diff. When Clearing in LC" indicator if clearing foreign currency with local currency creates unwanted delta entries.
 
-</br>
+</br></br>
+
+## Taxes 
+
+Taxes in SAP refer to the automated calculation, posting, and reporting of statutory financial charges (such as VAT, GST, sales tax, or withholding tax) integrated across business modules like Financial Accounting (FI), Sales and Distribution (SD), and Materials Management (MM).
+
+
+- Input Tax (Purchases from Vendor)
+- Output Tax (Sales to customer)
+
+ ##### Core Components of SAP Tax
+
+**- Tax Codes (FTXP):**
+	    • Defines specific tax rates and rules per country.
+	    • Determines whether a transaction is input or output tax.
+
+**- Calculation Procedures:**        
+        Defines step sequences and condition types for computing tax bases.
+
+**- Tax Accounts Determination: (OB40)**        
+        Automatically maps computed tax values to designated General Ledger (G/L) accounts.
+
+**Tax Jurisdiction Codes:**        
+        Manages multi-level regional tax authorities (e.g., state, county, city).
+
+
 
 </br></br>
 

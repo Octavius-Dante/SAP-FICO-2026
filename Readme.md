@@ -95,7 +95,7 @@ configuration is the first major phase when setting up SAP Financial Accounting 
 - [05 - Posting Control](https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main/05_POSTING_CONTROL)
 - [06 - Clearing, Exchange Rate Differences, Taxes](https://github.com/Octavius-Dante/SAP-FICO-2026/tree/main/06_CLEARING_EXC-RATE-DIFF_TAXES)
 
-
+ 
 
 
 </br></br></br></br>
