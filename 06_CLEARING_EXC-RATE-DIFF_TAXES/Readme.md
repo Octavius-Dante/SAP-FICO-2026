@@ -261,6 +261,15 @@ Taxes in SAP refer to the automated calculation, posting, and reporting of statu
 **Tax Jurisdiction Codes:**        
         Manages multi-level regional tax authorities (e.g., state, county, city).
 
+</br>
+
+#### Condition Techniques in SAP TAX (Customization)
+
+- Step 1 - Allowed Fields 
+- Step 2 - Condition Tables 
+- Step 3 - Access Sequence 
+- Step 4 - Condition Types
+- Step 5 - Procedure 
 
 
 </br></br>
