@@ -303,9 +303,12 @@ Example : Entered amount is 15000 of a document posting then tax setting is 20% 
 ## Clearing - Payment Differences
 
 
+- Customer FBL5N to view , FB70 create invoice Doc. and do the payment F-28
+- Vendor FBL1N to view , FB60 create invoice Doc. and do the payment F-43
+- GL FBL3N to view , FB50 create G/L posting Doc. and F-03, F-04
 
-
-
+• ✅ F-03: Clear G/L Account (Manual clearing of open items that balance to zero)
+• ✅ F-04: Post with Clearing (Manually post an offsetting entry and clear open items simultaneously)
 
 
 
