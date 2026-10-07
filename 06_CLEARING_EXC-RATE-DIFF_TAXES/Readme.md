@@ -298,6 +298,22 @@ Example : Entered amount is 15000 of a document posting then tax setting is 20% 
 ( 3000 = 15000 x 20% )
 ( 18000 = 15000 + 3000)
 
+</br></br>
+
+## Clearing - Payment Differences
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </br></br>
 

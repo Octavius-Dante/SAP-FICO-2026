@@ -217,8 +217,29 @@ It forms the financial backbone of the **Order-to-Cash (O2C)** cycle, ensuring t
 
 3. Post the Credit Memo: Enter the reference billing document or purchase order number, adjust the amount or quantity, and save the transaction to update the ledger.
 
-</br>
+</br></br>
 
+## Purchase - Vendor Invoice 
+
+In SAP, posting a Purchase Order (PO) invoice links Materials Management (MM) and Financial Accounting (FI) to verify logistics data and record the financial liability simultaneously.
+
+#### Key Differences: MM vs. FI Invoice Posting
+
+**• Core Purpose:**
+	        • MM (Logistics): Validates the procurement details, manages the logistics workflow, and performs a 3-way match (PO, Goods Receipt, and Vendor Invoice via MIRO).
+	        • FI (Financial): Records the final accounting entries, updates the general ledger, clears the GR/IR clearing account, and sets up the liability for vendor payment.
+
+**• Transaction Codes:**
+	        • MM: Uses logistics invoice verification codes like MIRO or MRHR.
+	        • FI: Uses direct financial posting codes like FB60 for non-PO invoices, while PO-based FI documents are generated automatically via MM integration.
+
+**• Document Creation:**
+	        • MM: Generates a logistics document number stored in MM tables.
+	        • FI: Generates a parallel financial accounting document number stored in FI tables.
+
+**• Account Determination:**
+	        • MM: Focuses on material quantities, prices, and goods receipt matching.
+	        • FI: Automatically pulls G/L accounts (like Vendor and GR/IR clearing) based on predefined configuration rules.
 
 
 </br>
