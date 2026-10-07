@@ -271,6 +271,28 @@ Taxes in SAP refer to the automated calculation, posting, and reporting of statu
 - Step 4 - Condition Types
 - Step 5 - Procedure 
 
+</br></br>
+
+#### Calculation of Taxes during a document posting 
+
+- **Gross Procedure** Tax calculated within the Entered amount and total valuation remains same as entered amount 
+
+Example : Entered amount is 15000 of a document posting then tax setting is 20%  then total value will be calculated like this 
+
+
+
+</br>
+
+- **Net Procedure** Tax calculated with the entered amount and total valuation is increased 
+
+Example : Entered amount is 15000 of a document posting then tax setting is 20%  then total value will be calculated like this 
+
+( Tax value = entered amount x 20% )
+( Total value = Entered amount + tax value )
+
+( 3000 = 15000 x 20% )
+( 18000 = 15000 + 3000)
+
 
 </br></br>
 
