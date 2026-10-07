@@ -284,7 +284,7 @@ Taxes in SAP refer to the automated calculation, posting, and reporting of statu
 - 3 FTXP - [**Tax Code** identified with or without Tax Jurisdiction depends on country , info about tax code's **Tax category** Input or Output tax]
 - 4 OB40 - [**Account Key / Transaction /Process Keys**, **Chart of accounts**, **G/L assignment to Tax codes**]
 
-
+</br>
 
 #### Calculation of Taxes during a document posting 
 
