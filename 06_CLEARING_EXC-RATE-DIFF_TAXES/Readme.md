@@ -279,12 +279,12 @@ Taxes in SAP refer to the automated calculation, posting, and reporting of statu
 
 Example : Entered amount is 15000 of a document posting then tax setting is 20%  then total value will be calculated like this 
 
-Tax rate = 20
-Tax calculation value (TCV) = 100 + 20
+- Tax rate = 20
+- Tax calculation value (TCV) = 100 + 20
 
-( Base amount = (Entered Amount x 100) / 120  )
-( Tax Value = Base amount x 20% )
-( Base amount + Tax value = Entered Amount )
+- ( Base amount = (Entered Amount x 100) / 120  )
+- ( Tax Value = Base amount x 20% )
+- ( Base amount + Tax value = Entered Amount )
 
 </br>
 
@@ -292,11 +292,11 @@ Tax calculation value (TCV) = 100 + 20
 
 Example : Entered amount is 15000 of a document posting then tax setting is 20%  then total value will be calculated like this 
 
-( Tax value = entered amount x 20% )
-( Total value = Entered amount + tax value )
+- ( Tax value = entered amount x 20% )
+- ( Total value = Entered amount + tax value )
 
-( 3000 = 15000 x 20% )
-( 18000 = 15000 + 3000)
+- ( 3000 = 15000 x 20% )
+- ( 18000 = 15000 + 3000)
 
 </br></br>
 
