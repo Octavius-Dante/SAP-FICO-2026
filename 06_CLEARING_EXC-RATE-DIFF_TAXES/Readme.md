@@ -273,6 +273,13 @@ Taxes in SAP refer to the automated calculation, posting, and reporting of statu
 
 </br></br>
 
+- 1 OBYZ - [**Condition Table**, **Access Sequence**, **Condition Types**, **Procedures**] , Procedure = [**Condition Type**, **Account Key**] , Condition Types = [**Account Key**]
+- 2 OBBG - [**Procedure** Assignment to a Country]
+- 3 FTXP - [**Tax Code** identified with or without Tax Jurisdiction depends on country , info about tax code's **Tax category** Input or Output tax]
+- 4 OB40 - [**Account Key / Transaction /Process Keys**, **Chart of accounts**, **G/L assignment to Tax codes**]
+
+
+
 #### Calculation of Taxes during a document posting 
 
 - **Gross Procedure** Tax calculated within the Entered amount and total valuation remains same as entered amount 
