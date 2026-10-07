@@ -263,7 +263,7 @@ Taxes in SAP refer to the automated calculation, posting, and reporting of statu
 
 </br>
 
-#### Condition Techniques in SAP TAX (Customization)
+#### Condition Techniques in SAP TAX (Customization) OBYZ 
 
 - Step 1 - Allowed Fields 
 - Step 2 - Condition Tables 
