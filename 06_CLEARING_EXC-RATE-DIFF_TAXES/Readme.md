@@ -320,6 +320,11 @@ Example : Entered amount is 15000 of a document posting then tax setting is 20% 
 - Vendor FBL1N to view , FB60 create invoice Doc. and do the payment F-43
 - GL FBL3N to view , FB50 create G/L posting Doc. and (F-03, F-04) used for manual clearing of G/L posting
 
+
+Partial Payment and Residual items (Means Remaining payments) 
+
+
+
 </br>
 
 #### GL Clearing Differences 
