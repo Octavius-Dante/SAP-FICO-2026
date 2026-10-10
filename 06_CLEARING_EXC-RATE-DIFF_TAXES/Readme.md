@@ -339,6 +339,8 @@ Partial Payment and Residual items (Means Remaining payments)
 - ✅ F-04: Post with Clearing (Manually post an offsetting entry and clear open items simultaneously)
 
 
+</br></br>
+
 ## Tolerance Groups for G/L 
 
 In SAP Financial Accounting, a G/L tolerance group (configured via transaction code OBA0) Tolerance groups for general ledger (G/L) accounts in SAP define the maximum acceptable payment or clearing differences (in absolute amounts and/or percentages) that the system automatically posts to predefined gain or loss accounts during open item clearing
@@ -385,8 +387,6 @@ In SAP Financial Accounting, a G/L tolerance group (configured via transaction c
     </tr>
 </table>
 
-
-</br>
 
 
 </br></br>
