@@ -323,6 +323,13 @@ Example : Entered amount is 15000 of a document posting then tax setting is 20% 
 
 Partial Payment and Residual items (Means Remaining payments) 
 
+**Partial Payments** will keep the original invoice document open until full amount is paid for the invoice when full amount is paid the Clearing document is generated
+
+**Residual Payments** will close the original invoice document with what ever amount was paid  to it and open a New Open item document for remaining payments (So majorly used during period end or month end closing)
+
+
+> [!NOTE]
+> Residual Payment (creates a clearing document and creates another open item document and both document number will be same)
 
 
 </br>
