@@ -331,7 +331,6 @@ Partial Payment and Residual items (Means Remaining payments)
 > [!NOTE]
 > Residual Payment (creates a clearing document and creates another open item document and both document number will be same)
 
-
 </br>
 
 #### GL Clearing Differences 
@@ -340,11 +339,131 @@ Partial Payment and Residual items (Means Remaining payments)
 - ✅ F-04: Post with Clearing (Manually post an offsetting entry and clear open items simultaneously)
 
 
+## Tolerance Groups for G/L 
+
+In SAP Financial Accounting, a G/L tolerance group (configured via transaction code OBA0) Tolerance groups for general ledger (G/L) accounts in SAP define the maximum acceptable payment or clearing differences (in absolute amounts and/or percentages) that the system automatically posts to predefined gain or loss accounts during open item clearing
+
+</br>
+
+#### Key Details & Purpose
+
+**• Automatic Posting:** If a clearing difference falls within the limits defined for the G/L account's tolerance group, SAP posts the difference automatically. If it exceeds the limit, you must handle it manually (e.g., via residual items, partial payments, or write-offs).
+
+**• Separate Limits:** You can configure individual limits for debit postings and credit postings, using both fixed monetary amounts and percentage thresholds.
+
+**• Blank Group Requirement:** You must configure a blank (default) tolerance group for your company code so that accounts without a specific assignment still fall back to standard system limits.
+
+</br>
+
+#### Important SAP Configuration & Transaction Codes
+
+<table>
+    <tr>
+        <td>Function</td>
+        <td>Transaction Code (T-Code)</td>
+        <td>SPRO Path / Description</td>
+    </tr>
+    <tr>
+        <td>Define G/L Tolerance Groups</td>
+        <td>OBA0</td>
+        <td>SPRO &gt; Financial Accounting &gt; General Ledger Accounting &gt; Business Transactions &gt; Open Item Clearing &gt; Clearing Differences &gt; Define Tolerance Groups for G/L Accounts</td>
+    </tr>
+    <tr>
+        <td>Assign Tolerance Group to G/L Account</td>
+        <td>FS00</td>
+        <td>Company Code Segment -&gt; Control Data tab -&gt; Tolerance group field</td>
+    </tr>
+    <tr>
+        <td>Configure Automatic Postings</td>
+        <td>OBXZ</td>
+        <td>Sets up the target expense or revenue accounts where clearing differences are automatically posted.</td>
+    </tr>
+    <tr>
+        <td>Define User/Employee Tolerances (Related)</td>
+        <td>OBA4</td>
+        <td>Limits for document amounts, open items, and cash discounts.</td>
+    </tr>
+</table>
 
 
+</br>
 
 
+</br></br>
 
+## Tolerance Groups for Customer 
+
+customer tolerance group in SAP FI (Financial Accounting) defines the acceptable limits for payment and cash discount differences when clearing customer open items. If a customer's payment is slightly higher or lower than the invoice amount, the system uses these rules to automatically write off the small difference or post it to gain/loss accounts.
+
+</br>
+
+#### What It Controls
+
+ For each customer tolerance group, you can specify limits for:
+
+- Permitted payment differences: Maximum amounts and percentages (whichever is lower) for incoming payments that are underpaid or overpaid.
+
+- Allowed cash discount differences: Tolerances for cash discounts taken outside terms or with minor discrepancies.
+
+- Residual items: How remaining open items or short-payments are handled during manual or automatic clearing.
+
+</br>
+
+#### Key SAP Transactions & Configuration
+
+**• Define Tolerance Groups (OBA3):** Create and configure customer and vendor tolerance limits per company code.
+
+**• Assign Tolerance Group to Customer Master:**
+	• SAP ERP (FD02 / XD02): Assign the group under the Company Code data -> Payment Transactions tab.
+	• SAP S/4HANA (Business Partner): Assign the tolerance group inside the Business Partner role (FLCU00 or FLCU01) under Company Code -> Customer Payment Transactions.
+
+**• Automatic Posting Accounts:** Set up the G/L accounts where small differences are automatically posted:
+	• Payment difference expenses/losses: OBXI
+	• Payment difference revenues/gains: OBXU
+
+</br>
+
+#### Default Behavior
+
+If you leave the customer tolerance group blank in the customer master data, SAP uses the company code's default tolerance group (the entry with no name/group code defined in OBA3). If the payment difference exceeds the configured tolerance limits, SAP blocks automatic clearing and requires manual intervention (such as a write-off, partial payment, or contacting the customer).
+
+</br></br>
+
+## Tolerance Groups for Vendors
+
+defines the permitted limits for payment and cash discount differences when clearing open items in accounts payable. It allows the system to automatically handle small discrepancies between invoice amounts and paid/received amounts.
+
+</br>
+
+#### Key Purposes
+
+**• Automatic Write-Offs / Postings:** If a payment or invoice difference falls within the limits defined for the tolerance group, SAP automatically posts the difference to a designated expense or revenue (gain/loss) account during clearing.
+
+**• Control & Compliance:** Prevents unauthorized or excessive write-offs and flags transactions that exceed the threshold for manual review.
+
+**• Default Settings:** If you leave the tolerance group blank (empty) for a company code, SAP applies those default rules to all vendors where a specific group is not assigned.
+
+</br>
+
+#### Important SAP Transaction Codes (T-Codes)
+
+**• Define Customer/Vendor Tolerance Groups: OBA3 (FI module)**
+
+**• Configure Vendor-Specific Tolerances (MM-LIV / Invoice Verification): OMRX**
+
+**• Assign Tolerance Group to Vendor Master Record:**
+	• In SAP ERP / classic GUI: XK02 / MK02 (under Payment transactions view)
+	• In SAP S/4HANA (Business Partner): Change BP role to vendor/supplier, go to Company Code data under Payment Transactions
+
+</br>
+
+#### Configuration Steps
+
+1. **Define the Group:** Go to transaction code OBA3 (or via SPRO under Financial Accounting -> Accounts Receivable and Accounts Payable -> Business Transactions -> Outgoing Payments -> Manual Outgoing Payments -> Define Tolerance Groups for Customers/Vendors).
+
+2. **Set Parameters:** Specify the company code, maximum permitted payment differences (in absolute amounts and/or percentages) for revenue and expense, and rules for residual items.
+
+3. **Assign to Vendor:** Open the vendor master record (XK02 or S/4HANA Business Partner app) for your company code and input the tolerance group key.
 
 
 </br></br>
