@@ -2,8 +2,22 @@
 
 </br>
 
-Special G/L (General Ledger) transactions in SAP are Accounts Receivable (FI-AR) and Accounts Payable (FI-AP) entries that bypass standard reconciliation accounts and post to alternative balance sheet G/L accounts. You can access official documentation and configuration references via the SAP Help Portal.
+- Configuration of Special G/L Transactions
+- Down Payment Received
+- Down Payment Made 
+- **Cash journal (Bank Accounting)**
+- Cash Journal Configuration
+- Cash Journal Transaction 
+- **Parking and Holding Documents**
+- Basics of Document Parking Versus Hold Document
+- Parking Documents and Processing Parked Document 
+- **Validations and Substitutions**
+- Validations and Substitutions 
 
+
+</br></br>
+
+Special G/L (General Ledger) transactions in SAP are Accounts Receivable (FI-AR) and Accounts Payable (FI-AP) entries that bypass standard reconciliation accounts and post to alternative balance sheet G/L accounts. You can access official documentation and configuration references via the SAP Help Portal.
 
 
 In SAP FI, a down payment (advance payment) is used when a company pays a vendor or receives money from a customer before goods or services are delivered or invoiced
@@ -48,7 +62,7 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
 </br>
 
 
-#### Common Transaction Codes (T-Codes) Customer and Vendors for Special GL and Down payment postings 
+#### Common Transaction Codes (T-Codes) Customer and Vendors for Special GL and Down payment postings   
 
 **• FBKP / SPRO:** Configure Special G/L indicators and assign alternative reconciliation accounts.
 
