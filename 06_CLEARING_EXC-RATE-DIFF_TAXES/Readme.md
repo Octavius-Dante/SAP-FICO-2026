@@ -481,6 +481,19 @@ To reset and reverse a cleared item in SAP, use transaction code FBRA (SAP GUI) 
 **• Reset and Reverse:** Resets the cleared item back to an open state and automatically posts a reversal document for the clearing/payment document.
 
 
+</br>
+
+#### Reversing A Financial document with no clearing involved
+
+SAP transaction **FB08** is used to reverse individual financial accounting (FI) documents, including General Ledger (G/L), customer, and vendor invoices that have no clearing information attached
+
+</br>
+
+#### Reversing A Financial document with clearing involved
+
+SAP transaction FB08 is used to reverse individual financial accounting (FI) documents, including General Ledger (G/L), customer, and vendor invoices that have no clearing information attached
+
+
 </br></br>
 
 
