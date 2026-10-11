@@ -491,7 +491,7 @@ SAP transaction **FB08** is used to reverse individual financial accounting (FI)
 
 #### Reversing A Financial document with clearing involved
 
-SAP transaction FB08 is used to reverse individual financial accounting (FI) documents, including General Ledger (G/L), customer, and vendor invoices that have no clearing information attached
+To reverse a financial document that has already been cleared in SAP, you must use a two-step procedure: first reset the clearing document, and then reverse the underlying financial documents. using **FBRA**
 
 
 </br></br>
