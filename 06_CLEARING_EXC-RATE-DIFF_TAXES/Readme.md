@@ -466,6 +466,21 @@ defines the permitted limits for payment and cash discount differences when clea
 3. **Assign to Vendor:** Open the vendor master record (XK02 or S/4HANA Business Partner app) for your company code and input the tolerance group key.
 
 
+
+</br></br>
+
+## Resetting Cleared items 
+
+To reset and reverse a cleared item in SAP, use transaction code FBRA (SAP GUI) or the Reset Cleared Items app (F2223 in SAP Fiori).
+
+
+#### Key Differences: Reset vs. Reset and Reverse
+
+**• Reset Only:** Breaks the link between an open item (like an invoice) and a clearing document (like a payment), returning the original line item status to "open" without posting a reversal.
+
+**• Reset and Reverse:** Resets the cleared item back to an open state and automatically posts a reversal document for the clearing/payment document.
+
+
 </br></br>
 
 
