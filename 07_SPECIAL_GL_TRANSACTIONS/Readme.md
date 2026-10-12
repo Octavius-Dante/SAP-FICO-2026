@@ -38,7 +38,7 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
 
 <table>
     <tr>
-        <td>Type</td>
+        <td>Type</td> 
         <td>How It Affects Books</td>
         <td>Common Examples</td>
     </tr>
@@ -62,7 +62,7 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
 </br>
 
 
-#### Common Transaction Codes (T-Codes) Customer and Vendors for Special GL and Down payment postings   
+#### Common Transaction Codes (T-Codes) Customer for Special GL and Down payment postings   
 
 **• FBKP / SPRO:** Configure Special G/L indicators and assign alternative reconciliation accounts.
 
@@ -72,11 +72,15 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
 
 **• F-29:** Post customer down payment (Indicator A).
 
-**• F-39:** Clear customer down payment against an invoice.
-
 **• F-32 :** open item clearing customer
 
-**• FBL5N / FBL1N:** Review customer or vendor line item displays.
+**• FB70 :** Post a Customer invoice 
+
+**• F-39:** Clear customer down payment against an invoice.
+
+**• F-28:** Clear customer invoice payment.
+
+**• FBL5N :** Review customer line item displays.
 
 </br></br>
 
