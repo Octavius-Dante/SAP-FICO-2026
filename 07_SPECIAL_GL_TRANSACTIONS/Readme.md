@@ -180,7 +180,6 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
 
 #### Key Differences at a Glance
 
-</br></br>
 
 <table>
     <tr>
@@ -215,6 +214,7 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
     </tr>
 </table>
 
+</br></br>
 
 > [!NOTE]
 > test sample 
