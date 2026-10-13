@@ -160,7 +160,7 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
 
 **• Document Number:** You manually assign a temporary name or number when saving. It does not generate a true SAP FI document number.
 
-**• Visibility & Workflow:** Private. It is tied strictly to the user who created it; other users cannot view, edit, or workflow-approve it.
+**• Visibility & Workflow:** Private. It is tied strictly to the user who created it; other users cannot view, edit, or workflow-approve it, There wont be any record if the hold document is deleted in the system since no number is generated when saved 
 
 **• Common T-Codes:** F-50, FB50 (depending on entry method).
 
@@ -172,7 +172,8 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
 
 **• Document Number:** The system automatically assigns a real SAP document number upon parking.
 
-**• Visibility & Workflow:** Shared. It is visible across the system to other authorized users and can be routed through SAP workflow, modified, rejected, or posted by a second person.
+**• Visibility & Workflow:** Shared. It is visible across the system to other authorized users and can be routed through SAP workflow, modified, rejected, or posted by a second person, There will be a record if the parked document is deleted in the system since the number is generated it also creates a record of it gets deleted
+
 
 **• Common T-Codes:** FBV1, FV50, F-02.
 
