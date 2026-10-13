@@ -132,6 +132,19 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
 
 </br>
 
+#### Other Words 
+
+**PARK :**
+
+The Posting information is correct and it is good for posting and there is no block or doubt of posting with any issues whether it is customer or the amount details and it is (100% perfect) but you got interrupted so you are parking it 
+
+**HOLD :**
+
+Holding Document there could be possibilities that information is not correct or you have doubt in it, and there is lot of things blocking it from posting it like insufficient information whether it s customer or amount details it is (not 100% perfect) you want to clarify it with someone before doing the posting then your holding the document
+
+
+</br>
+
 #### SAP FI Transactions which supports Parking 
 
 - FB50: G/L Account Posting (Park option available)
