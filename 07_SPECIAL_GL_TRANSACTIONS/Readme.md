@@ -152,6 +152,69 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
 • FBV3: Display a parked document
 • FBV0: Post or delete a parked document
 
+</br></br>
+
+#### Document Hold
+
+**• Purpose:** Used for personal interruptions or when a document is incomplete and you need to step away or wait for more information (e.g., missing a cost center or bank details).
+
+**• Document Number:** You manually assign a temporary name or number when saving. It does not generate a true SAP FI document number.
+
+**• Visibility & Workflow:** Private. It is tied strictly to the user who created it; other users cannot view, edit, or workflow-approve it.
+
+**• Common T-Codes:** F-50, FB50 (depending on entry method).
+
+</br>
+
+#### Document Park
+
+**• Purpose:** Used for formal review, dual verification, or multi-tier approval workflows (e.g., an invoice exceeds a user's posting limit and must be reviewed by a manager).
+
+**• Document Number:** The system automatically assigns a real SAP document number upon parking.
+
+**• Visibility & Workflow:** Shared. It is visible across the system to other authorized users and can be routed through SAP workflow, modified, rejected, or posted by a second person.
+
+**• Common T-Codes:** FBV1, FV50, F-02.
+
+</br>
+
+#### Key Differences at a Glance
+
+</br></br>
+
+<table>
+    <tr>
+        <td>Feature</td>
+        <td>Document Hold</td>
+        <td>Document Park</td>
+    </tr>
+    <tr>
+        <td>Primary Use Case</td>
+        <td>Personal draft / waiting for clarification</td>
+        <td>Formal review, dual control, or approval</td>
+    </tr>
+    <tr>
+        <td>Document Number</td>
+        <td>User-defined temporary name/number</td>
+        <td>Official SAP document number generated</td>
+    </tr>
+    <tr>
+        <td>Visibility</td>
+        <td>Only visible/accessible to the creator</td>
+        <td>Visible to other users / approvers in the system</td>
+    </tr>
+    <tr>
+        <td>Workflow Support</td>
+        <td>None</td>
+        <td>Supported (can trigger approvals/releases)</td>
+    </tr>
+    <tr>
+        <td>GL / Balance Impact</td>
+        <td>None</td>
+        <td>None (until officially posted)</td>
+    </tr>
+</table>
+
 
 > [!NOTE]
 > test sample 
