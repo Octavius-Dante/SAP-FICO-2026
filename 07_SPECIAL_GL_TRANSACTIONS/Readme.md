@@ -174,7 +174,6 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
 
 **• Visibility & Workflow:** Shared. It is visible across the system to other authorized users and can be routed through SAP workflow, modified, rejected, or posted by a second person, There will be a record if the parked document is deleted in the system since the number is generated it also creates a record of it gets deleted
 
-
 **• Common T-Codes:** FBV1, FV50, F-02.
 
 </br>
