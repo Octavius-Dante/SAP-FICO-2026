@@ -75,7 +75,7 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
 
 **• F-29:** Post customer down payment (Indicator A).
 
-**• F-32:** open item clearing customer
+**• F-32:** Clear Customer - Open items
 
 **• FB70:** Post a Customer invoice 
 
@@ -93,7 +93,7 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
 
 **• F-48:** Post Vendor down payment (Indicator A).
 
-**• F-44:** Open item clearing Vendor
+**• F-44:** Clear Vendor - Open items
 
 **• FB60:** Post a Vendor invoice 
 
