@@ -107,10 +107,21 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
 
 ## Cash Journal (Bank Accounting) 
 
+The cash journal in SAP (transaction code **FBCJ**) is a subledger of Financial Accounting and Bank Accounting used to manage and track all day-to-day cash transactions (such as petty cash)
 
+</br>
 
+#### Key Functions and Features
 
+**• Transaction Management:** Records cash receipts and cash payments, including petty cash expenses (like travel or office supplies), customer cash payments, and vendor cash payments.
 
+**• Automatic Balances:** Automatically calculates and displays opening balances, total receipts, total payments, and closing balances in real time.
+
+**• General Ledger Integration:** Postings made in the cash journal automatically update the General Ledger (G/L), Accounts Receivable (AR), and Accounts Payable (AP).
+
+**• Multi-Currency & Multi-Box Support:** Companies can run multiple cash journals per company code, maintaining a separate journal for each currency or physical cash box/branch location.
+
+**• Two-Step Workflow:** Users can save entries in the cash journal first before posting them permanently to Financial Accounting.
 
 
 > [!NOTE]
