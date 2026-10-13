@@ -153,7 +153,6 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
 • FBV0: Post or delete a parked document
 
 
-
 > [!NOTE]
 > test sample 
 
