@@ -105,6 +105,13 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
 
 </br></br>
 
+## Cash Journal (Bank Accounting) 
+
+
+
+
+
+
 
 > [!NOTE]
 > test sample 
