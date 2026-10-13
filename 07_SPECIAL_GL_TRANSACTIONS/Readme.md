@@ -132,7 +132,7 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
 
 </br>
 
-#### SAP Transaction which support Parking 
+#### SAP Transactions which supports Parking 
 
 - FB50: G/L Account Posting (Park option available)
 - FB60: Vendor Invoice (Park option available)
