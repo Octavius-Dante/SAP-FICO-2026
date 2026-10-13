@@ -138,6 +138,8 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
 
 The Posting information is correct and it is good for posting and there is no block or doubt of posting with any issues whether it is customer or the amount details and it is (100% perfect) but you got interrupted so you are parking it 
 
+Some cases consultant will park the document and get it approved by manger or higher authority and then post it 
+
 > [!NOTE]
 > You can claim taxes based on parked document, you haven't posted them but you can send information to tax department with this parked document evidence 
 
