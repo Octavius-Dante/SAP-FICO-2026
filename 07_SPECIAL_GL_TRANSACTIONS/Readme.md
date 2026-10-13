@@ -59,7 +59,7 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
     </tr>
 </table>
 
-</br></br>
+</br>
 
 #### Common Transaction Codes (T-Codes) For G/L creation and Special indicator setup
 
@@ -67,7 +67,7 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
 
 **• FS00:** Create or modify G/L account master records.
 
-</br></br>
+</br>
 
 #### Transaction Codes (T-Codes) Customer Special G/L and Down payment postings   
 
@@ -85,7 +85,7 @@ In SAP FI, a down payment (advance payment) is used when a company pays a vendor
 
 **• FBL5N :** Review customer line item displays.
 
-</br></br>
+</br>
 
 #### Transaction Codes (T-Codes) Vendor Special G/L and Down payment postings   
 
