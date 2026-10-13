@@ -140,6 +140,10 @@ The Posting information is correct and it is good for posting and there is no bl
 
 Some cases consultant will park the document and get it approved by manger or higher authority and then post it 
 
+Park -> post is possible 
+Post -> park is not possible 
+Post -> reverse is possible 
+
 > [!NOTE]
 > You can claim taxes based on parked document, you haven't posted them but you can send information to tax department with this parked document evidence 
 
