@@ -134,23 +134,23 @@ Document parking in SAP FI (Financial Accounting) is a feature that lets users s
 
 #### SAP Transaction which support Parking 
 
-• FB50: G/L Account Posting (Park option available)
-• FB60: Vendor Invoice (Park option available)
-• FB65: Vendor Credit Memo (Park option available)
-• FB70: Customer Invoice (Park option available)
-• FB75: Customer Credit Memo (Park option available)
-• F-90: Asset Acquisition / Purchase (Park option available)
-• F-65: Enter Parked Document (General document parking entry screen)
-• F-02 / FV50 / FV60: Document entry variations supporting park or specific parking transaction codes (e.g., FV60 for parking vendor invoices).
+- FB50: G/L Account Posting (Park option available)
+- FB60: Vendor Invoice (Park option available)
+- FB65: Vendor Credit Memo (Park option available)
+- FB70: Customer Invoice (Park option available)
+- FB75: Customer Credit Memo (Park option available)
+- F-90: Asset Acquisition / Purchase (Park option available)
+- F-65: Enter Parked Document (General document parking entry screen)
+- F-02 / FV50 / FV60: Document entry variations supporting park or specific parking transaction codes (e.g., FV60 for parking vendor invoices).
 
 </br>
 
 #### Transaction to handle Parking documents 
 
-• FBV1 / FV50: Park a document
-• FBV2: Change a parked document
-• FBV3: Display a parked document
-• FBV0: Post or delete a parked document
+- FBV1 / FV50: Park a document
+- FBV2: Change a parked document
+- FBV3: Display a parked document
+- FBV0: Post or delete a parked document
 
 </br></br>
 
