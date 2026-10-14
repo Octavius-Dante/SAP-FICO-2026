@@ -12,7 +12,7 @@
 - Basics of Document Parking Versus Hold Document
 - Parking Documents and Processing Parked Document 
 - **Validations and Substitutions**
-- Validations and Substitutions 
+
 
 
 </br></br>
