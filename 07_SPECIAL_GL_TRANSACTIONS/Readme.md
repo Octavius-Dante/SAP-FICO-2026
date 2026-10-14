@@ -175,6 +175,26 @@ Holding Document there could be possibilities that information is not correct or
 - FBV3: Display a parked document
 - FBV0: Post or delete a parked document
 
+</br>
+
+#### Posting Parked Documents for Customer 
+
+- FV70 - Park/Edit Invoice 
+- F-64 - Invoice Parking - General 
+- FV75 - Park/Edit Credit Memo 
+- F-67 - Credit Memo Parking - General 
+
+</br>
+
+#### Posting Parked Documents for Vendor
+
+- FV60 - Park or Edit Invoice 
+- F-63 - Invoice Parking - General 
+- FV65 - Park/Edit Credit Memo 
+- F-66 - Credit Memo Parking - General 
+
+</br>
+
 </br></br>
 
 #### Document Hold
