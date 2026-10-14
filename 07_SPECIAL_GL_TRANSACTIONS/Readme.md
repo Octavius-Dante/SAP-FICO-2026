@@ -276,6 +276,7 @@ Validations and substitutions in SAP (commonly used in modules like FI, CO, and 
 **• Example:** If Company Code is ABC, the cost center must be XYZ. Entering any other cost center triggers an error and stops the posting.
 
 **• Key T-Codes:**
+
 	             - Create/Maintain: GGB0
 	             - Assign/Activate (FI): OB28
 	             - Central Activation: GGB4
@@ -294,6 +295,7 @@ Validations and substitutions in SAP (commonly used in modules like FI, CO, and 
 **• Example:** If the user posts a journal entry in Company Code BAJA, the line-item text field (SGTXT) is automatically filled with 'Test Journal Voucher'.
 
 **• Key T-Codes:**
+
 	            - Create/Maintain: GGB1
 	            - Assign/Activate (FI): OBBH
 	            - Central Activation: GGB4
