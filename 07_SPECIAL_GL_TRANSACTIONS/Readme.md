@@ -259,6 +259,55 @@ Holding Document there could be possibilities that information is not correct or
 
 </br></br>
 
+## Validations and Substitutions 
+
+Validations and substitutions in SAP (commonly used in modules like FI, CO, and Asset Accounting) are rules-based tools that check data accuracy or automatically populate field values before a document is permanently posted to the database
+
+</br>
+
+#### What is a Validation?
+
+**A validation acts as a gatekeeper to ensure data integrity.**
+
+**• How it works:** It uses boolean logic (Prerequisite → Check → Message) to test data entered by a user.
+
+**• Result:** If the check fails, the system blocks the posting or issues a warning, error, or informational message depending on the configured severity.
+
+**• Example:** If Company Code is ABC, the cost center must be XYZ. Entering any other cost center triggers an error and stops the posting.
+
+**• Key T-Codes:**
+	        • Create/Maintain: GGB0
+	        • Assign/Activate (FI): OB28
+	        • Central Activation: GGB4
+
+
+</br>
+
+#### What is a Substitution?
+
+**A substitution automatically replaces or fills field values based on predefined conditions**
+
+**• How it works:** It uses logic (Prerequisite/Parameter → Replacement) to evaluate incoming data. If the condition is met, the system swaps or populates the target field with a constant, a field value, or an ABAP routine (user exit).
+
+**• Result:** Manual entry is reduced, and fields are populated dynamically in the background.
+
+**• Example:** If the user posts a journal entry in Company Code BAJA, the line-item text field (SGTXT) is automatically filled with 'Test Journal Voucher'.
+
+**• Key T-Codes:**
+	        • Create/Maintain: GGB1
+	        • Assign/Activate (FI): OBBH
+	        • Central Activation: GGB4
+
+</br>
+
+#### Call-up Points & Execution Order
+
+**• Call-up Points:** Both can be applied at three primary levels: Document Header, Document Line Item, or Complete Document.
+
+**• Execution Order:** If both a validation and a substitution are active for the exact same application area and call-up point, the substitution triggers first, followed by the validation. This ensures that if a value is substituted, the validation checks the newly substituted value rather than the original input.
+
+</br></br>
+
 > [!NOTE]
 > test sample 
 
