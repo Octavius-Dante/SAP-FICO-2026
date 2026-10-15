@@ -263,6 +263,12 @@ Holding Document there could be possibilities that information is not correct or
 
 Validations and substitutions in SAP (commonly used in modules like FI, CO, and Asset Accounting) are rules-based tools that check data accuracy or automatically populate field values before a document is permanently posted to the database
 
+it is a 3 step process 
+
+1. Pre-requisite 
+2. Check 
+3. Message 
+
 </br>
 
 #### What is a Validation?
